@@ -1,0 +1,4 @@
+content{
+  timesIntroVideoPlayed:i=1
+  autologin:b=no
+}

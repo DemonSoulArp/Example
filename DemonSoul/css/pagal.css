@@ -1,0 +1,75 @@
+	
+.same{height: 200px;
+	width: 200px;
+	background-color: blue;
+	}
+#one{width: 200px;
+		height: 200px;
+	background-color: silver;
+}
+.q{height: 200px;
+	width: 200px;
+	background-color: orange;}
+#Q{width: 200px;
+		height: 200px;
+	background-color:green;
+}
+.w{height: 200px;
+	width: 200px;
+	background-color: black;}
+#W{width: 200px;
+		height: 200px;
+	background-color: pink;
+}
+.e{height: 200px;
+	width: 200px;
+	background-color: red;
+	}
+#E{width: 200px;
+		height: 200px;
+	background-color: grey;
+}
+.r{height: 200px;
+	width: 200px;
+	background-color: green;
+	}
+#R{width: 200px;
+		height: 200px;
+	background-color:gold ;
+}
+.t{height: 200px;
+	width: 200px;
+	background-color: blue;
+	}
+#T{width: 200px;
+		height: 200px;
+	background-color: yellow;
+}
+.y{height: 200px;
+	width: 200px;
+	background-color: gold;
+	}
+#Y{width: 200px;
+		height: 200px;
+	background-color: red;
+}
+.u{height: 200px;
+	width: 200px;
+	background-color: silver;
+	}
+#U{width: 200px;
+		height: 200px;
+	background-color: black;
+}
+.i{height: 200px;
+	width: 200px;
+	background-color: gold;
+	}
+#I{width: 200px;
+		height: 200px;
+	background-color: orange;
+}
+
+#qwerty img{height: 300px;
+	width: 300px;
+}

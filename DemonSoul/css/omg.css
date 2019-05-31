@@ -1,0 +1,20 @@
+#qwerty img{height: 300px;
+	width: 300px;
+}
+#asdf img{height: 300px;
+	width: 300px;
+}
+#zxcv img{height: 300px;
+	width: 300px;
+}
+
+body
+{
+	background-image: url(../Image/3.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+
+}
+#nmk img{height: 300px;
+	width: 300px;
+}

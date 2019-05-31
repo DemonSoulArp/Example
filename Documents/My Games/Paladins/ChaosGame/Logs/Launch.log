@@ -1,0 +1,2446 @@
+[0005.12] Log: Async Log file open, 04/29/19 20:03:37
+[0005.12] Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[0005.12] Log:  ... running in INSTALLED mode
+[0005.12] DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+[0005.12] Init: Version: 10897
+[0005.12] Init: Epic Internal: 0
+[0005.12] Init: Compiled (64-bit): Apr 25 2019 10:32:56
+[0005.12] Init: Changelist: 1532151
+[0005.12] Init: Command line: -pid=402 -steam -anon  -seekfreeloadingPCConsole -eac_dir "..\\EasyAntiCheat\\"
+[0005.12] Init: Base directory: E:\Gaming hub\steamapps\common\Paladins\Binaries\Win64\
+[0005.12] Init: Computer: CAARE-PC
+[0005.12] Init: User: caare
+[0005.12] Init: CPU Page size=4096, Processors=4, Cores=2
+[0005.12] Init: High frequency timer resolution =2.143486 MHz
+[0005.12] Init: Memory total: Physical=3.9GB (4GB approx) Pagefile=7.8GB Virtual=8192.0GB
+[0008.70] DevOnline: MCTS message: Calling SetPendingPartyTeamId 0
+[0008.70] DevOnline: Initializing MCTS
+[0010.04] VoiceChat: Vivox Version: 4.7.0005.25982
+[0010.04] Init: Game is version 2.5.3159.6.
+[0011.92] Log: Initializing Steamworks
+[0011.92] Log: Steam Client API initialized 1
+[0011.92] Log: [OnlineSubsystemSteamworks.OnlineSubsystemSteamworks].GameVersion is not set. Server advertising will fail
+[0011.92] Log: Steam Game Server API initialized 0
+[0011.92] Log: Discord Client API Disabled!
+[0011.92] Init: Presizing for 110000 objects not considered by GC, pre-allocating 0 bytes.
+[0011.93] Init: Object subsystem initialized
+[0011.95] Log: CachePaths() took 0.02 Seconds
+[0011.95] Log: TgAIBehaviorTreeManager :: Loading behavior trees
+[0012.25] Log: TgAIBehaviorTreeManager :: Successfully loaded behavior trees
+[0021.17] Log: Landing Panel http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live/
+[0023.36] Log: SystemSettings based on: SystemSettings
+[0023.41] Log: SystemSettings based on: SystemSettings
+[0023.41] Log: SystemSettings based on: SystemSettings
+[0023.41] Log: SystemSettings based on: SystemSettings
+[0023.41] Log: SystemSettings based on: SystemSettings
+[0023.41] Log: SystemSettings based on: SystemSettings
+[0023.41] Log: SystemSettings based on: SystemSettings
+[0023.42] Log: SystemSettings based on: SystemSettings
+[0023.42] Log: SystemSettings based on: SystemSettings
+[0023.42] Log: SystemSettings based on: SystemSettings
+[0029.09] Log: Automatically detetecting settings: VID-0x8086 DID-0x1616 SLVL-11111-1280x720 FLVL-11111-1280x720
+[0038.86] Log: Found D3D11 adapter 0: Intel(R) HD Graphics 5500
+[0038.86] Log: Adapter has 2232MB of dedicated video memory, 0MB of dedicated system memory, and 1751MB of shared system memory
+[0038.99] Log: Shader platform (RHI): PC-D3D-SM5
+[0043.93] Log: PhysX GPU Support: DISABLED
+[0044.55] Log: FEACClient being initialized
+[0046.91] Log: Assembly load started
+[0065.62] Log: Assembly Loaded Version: DBExport: 04/15/2019 11:00:30,  Src=devsql.hirezcorp.com:paladins_live_build_2_5, LangSrc=devsql.hirezcorp.com:paladins_translations,
+[0065.62] Log: Assembly load completed in 18.71 seconds
+[0071.69] Log: FMaterialUniformExpressionTexture had invalid TextureIndex! (2/2)
+[0071.73] Log: TFC Version check: Low=2.5.3159.0 High=2.5.3159.0, Result=TRUE
+[0072.29] Log: Skipping adding Package OnlineSubsystemSteamworks to NetPackages
+[0072.30] Log: Skipping adding Package OnlineSubsystemPC to NetPackages
+[0096.63] Log: 128049 objects as part of root set at end of initial load.
+[0096.63] Log: 0 out of 0 bytes used by permanent object pool.
+[0096.67] Warning: StaticLoadObject for SwfMovie GFXFonts fonts_en couldn't find object in memory!
+[0096.75] Warning: Warning, Failed to load 'SwfMovie GFXFonts.fonts_en': Failed to find object 'SwfMovie GFXFonts.fonts_en'
+[0099.50] Log: Initializing Engine...
+[0099.50] Log: PComDiscordRichPresence::Init calling Discord_Initialize
+[0099.88] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0099.88] DevNet: PComNetDriver_0(PEER) TcpNetDriver listening on port 7778
+[0100.87] Log: Couldn't find Master sound class! This class is required for the audio sound mode system to function!
+[0101.00] Log: Wwise(R) SDK Version 2016.2.3 Build 6077. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0101.52] Log: Start loading WWise Package Lookup Tables
+[0116.01] Log: Finished loading Wwise Packages.
+[0117.05] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,TRUE)
+[0117.07] Log: LogGPUDriverInfo: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[0117.07] Log: D3D11 Driver Details:
+[0117.07] Log: Adapter Name: Intel(R) HD Graphics 5500
+[0117.07] Log: Driver Version 20.19.15.4963 (internal: 20.19.15.4963)
+[0117.07] Log: Driver Date 2-21-2018
+[0124.63] Log: CreateSwapChain with DXGI_SWAP_EFFECT_DISCARD
+[0124.66] Log: Logged in as 'luciferdynamic598'
+[0124.66] ScriptWarning: Script call stack:
+	Function TgClient.TgGameViewportClient:Init
+	Function PlatformCommon.PComGameViewportClient:Init
+	Function Engine.GameViewportClient:Init
+
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0124.66] ScriptWarning: Assertion failed, line 703
+	TgGameViewportClient Transient.TgGameEngine_0:TgGameViewportClient_0
+	Function Engine.GameViewportClient:Init:0025
+[0124.68] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0124.85] Warning: Warning, Failed to find object 'Class None.'
+[0126.18] DevNet: Browse: LobbyMapV4_P?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0126.18] Log: FEACClient::Send preload map event
+[0126.18] Log: FEACClient OnGameServerDisconnect
+[0126.19] Log: LoadMap: LobbyMapV4_P?Name=Player?Team=255?DefaultCharacter=TgGame.TgCharacter
+[0131.41] Log: Map Game ID = 0
+[0131.41] Log: Map Instance ID = 246547644
+[0131.44] Log: Performance: Critical section Lock/Unlock 28 nsec
+[0131.44] Log: Performance:  appCycles 10 nsec
+[0131.49] Log: Performance:  memCopy per KB 252 nsec
+[0131.51] Log: Performance:  memZero per KB 62 nsec
+[0131.51] Log: Performance:  appInterlockedIncrement 8 nsec
+[0131.52] Log: Performance:  GetTickCount 3 nsec
+[0131.76] TgSLO: Async Load: LobbyRefs_SF
+[0131.76] TgSLO: Async Load: LobbyUI_SF
+[0131.76] Log: Flushing async loaders. MinPriority=ALP_Immediate
+[0132.57] TgSLO: Finish Load: LobbyRefs_SF
+[0137.31] TgSLO: Finish Load: LobbyUI_SF
+[0137.31] Log: Flushed async loaders.
+[0137.31] Log: Game class is 'TgGameLaunch'
+[0137.32] Log: Match ID: 0
+[0137.68] Log: Primary PhysX scene will be in software.
+[0137.68] Log: Creating Primary PhysX Scene.
+[0138.57] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0138.57] Log: Bringing World LobbyMapV4_P.TheWorld up for play (0) at 2019.04.29-20.05.51
+[0138.57] Log: Skipping initialization of FSMPartPool!
+[0138.58] Log: Bringing up level for play took: 1.257572
+[0138.58] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0138.58] Log: Initializing custom image creator...
+[0139.42] Log: UTgGfxScene Initialize: UIMenuManager
+[0139.49] Log: Requested local load of 'patchnotes' JSON
+[0139.51] Log: JSON file exists at requested location. Triggering load...
+[0139.51] Log: Successfully loaded patchnotes JSON data. Attempting to parse...
+[0139.51] Log: Parsing successful. Loading patchnotes entries...
+[0139.51] Log: Successfully loaded 0 patchnotes entries in 0 patchnotes groups
+[0139.55] Log: TgClientHUD Begin Loading All Scenes
+[0139.55] Log: TgClientHUD Load Scene: UIBackground
+[0139.55] Log: TgClientHUD Load Scene: UIStoreDetail
+[0139.55] Log: TgClientHUD Load Scene: UIHome
+[0139.55] Log: TgClientHUD Load Scene: UIStore
+[0139.55] Log: TgClientHUD Load Scene: UIPlay
+[0139.55] Log: TgClientHUD Load Scene: UIMatchLobby
+[0139.55] Log: TgClientHUD Load Scene: UIProfile
+[0139.55] Log: TgClientHUD Load Scene: UILeaderboard
+[0139.55] Log: TgClientHUD Load Scene: UICustomGame
+[0139.55] Log: TgClientHUD Load Scene: UISocial
+[0139.55] Log: TgClientHUD Load Scene: UIEndOfMatchLobby
+[0139.55] Log: TgClientHUD Load Scene: UIQuests
+[0139.55] Log: TgClientHUD Load Scene: UICompetitive
+[0139.55] Log: TgClientHUD Load Scene: UIChampion
+[0139.55] Log: TgClientHUD Load Scene: UIChampionSelect
+[0139.55] Log: TgClientHUD Load Scene: UIChampionMastery
+[0139.55] Log: TgClientHUD Load Scene: UILogin
+[0139.55] Log: TgClientHUD Load Scene: UISettings
+[0139.55] Log: TgClientHUD Load Scene: UIEditLoadouts
+[0139.55] Log: TgClientHUD Load Scene: UIBattlePass
+[0139.55] Log: TgClientHUD Load Scene: UIBattlePassLevelUp
+[0139.55] Log: TgClientHUD Load Scene: UIBattlePassPurchase
+[0139.55] Log: TgClientHUD Load Scene: UIRadialMenuEquip
+[0139.55] Log: TgClientHUD Load Scene: UIStreetStyleEvent
+[0139.55] Log: TgClientHUD Load Scene: UIGifts
+[0139.55] Log: TgClientHUD Load Scene: UIFooter
+[0139.55] Log: TgClientHUD Load Scene: UILobbyChat
+[0139.55] Log: TgClientHUD Load Scene: UIProfileMini
+[0139.55] Log: TgClientHUD Load Scene: UIHeader
+[0139.55] Log: TgClientHUD Load Scene: UINotificationCenter
+[0139.55] Log: TgClientHUD Load Scene: UIAccountLinkPopup
+[0139.55] Log: TgClientHUD Load Scene: UIDailyReward
+[0139.55] Log: TgClientHUD Load Scene: UIDiscardQuestPopup
+[0139.55] Log: TgClientHUD Load Scene: UIPopup
+[0139.55] Log: TgClientHUD Load Scene: UIPopupRealMoneyPurchase
+[0139.55] Log: TgClientHUD Load Scene: UIInputPopup
+[0139.55] Log: TgClientHUD Load Scene: UICompetitivePopupWelcome
+[0139.55] Log: TgClientHUD Load Scene: UICompetitiveRankedDecay
+[0139.55] Log: TgClientHUD Load Scene: UICompetitiveRankChange
+[0139.55] Log: TgClientHUD Load Scene: UIWebBrowser
+[0139.55] Log: TgClientHUD Load Scene: UIMatchInvite
+[0139.55] Log: TgClientHUD Load Scene: UILobbyBoosterSelect
+[0139.55] Log: TgClientHUD Load Scene: UILobbyBoosterActivation
+[0139.55] Log: TgClientHUD Load Scene: UIAcquisition
+[0139.55] Log: TgClientHUD Load Scene: UICouponAcquisition
+[0139.55] Log: TgClientHUD Load Scene: UIPurchase
+[0139.55] Log: TgClientHUD Load Scene: UIPopupPartyManager
+[0139.55] Log: TgClientHUD Load Scene: UITeamInvite
+[0139.55] Log: TgClientHUD Load Scene: UISkills
+[0139.55] Log: TgClientHUD Load Scene: UIPurchaseGems
+[0139.55] Log: TgClientHUD Load Scene: UIEOMLAcquisition
+[0139.55] Log: TgClientHUD Load Scene: UIPatchNotesPopup
+[0139.55] Log: TgClientHUD Load Scene: UIReferredRewardsPopup
+[0139.55] Log: TgClientHUD Load Scene: UIKeybindPopup
+[0139.55] Log: TgClientHUD Load Scene: UIGameMenu
+[0139.55] Log: TgClientHUD Load Scene: UIFacebookLivePopup
+[0139.55] Log: TgClientHUD Load Scene: UIPopupChampionLevelUp
+[0139.55] Log: TgClientHUD Load Scene: UIPlaySettings
+[0139.55] Log: TgClientHUD Load Scene: UIStoreFilterPopup
+[0139.55] Log: TgClientHUD Load Scene: UIStoreRentSprayPopup
+[0139.55] Log: TgClientHUD Load Scene: UIPopupDeal
+[0139.55] Log: TgClientHUD Load Scene: UIBattlePassXPPurchase
+[0139.55] Log: TgClientHUD Load Scene: UIFullScreen
+[0139.55] Log: TgClientHUD Load Scene: UISendGift
+[0139.55] Log: TgClientHUD Load Scene: UIMatchLobbyTradePopup
+[0139.55] Log: TgClientHUD Load Scene: UIAchievementPopups
+[0139.55] Log: TgClientHUD Load Scene: UINotificationPopup
+[0139.55] Log: TgClientHUD Load Scene: UISafeFrame
+[0139.55] Log: TgClientHUD Load Scene: UIFooterGamepad
+[0139.55] Log: TgClientHUD Load Scene: UIFade
+[0139.55] Log: TgClientHUD Load Scene: UIFacebookLiveIndicator
+[0139.55] Log: TgClientHUD Finished Loading All Scenes
+[0139.55] Log: [LobbyStateLog] Changing lobby state from 0 to 1.
+[0139.56] Exit: PComNetDriver_0(PEER) shut down
+[0139.56] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0139.56] DevNet: PComNetDriver_1(PEER) TcpNetDriver listening on port 7778
+[0139.56] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0139.56] Log: ########### Finished loading level: 13.371503 seconds
+[0139.57] Log: Flushing async loaders. MinPriority=ALP_None
+[0141.90] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 1, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 64x64, format 2
+[0141.90] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 2, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 64x64, format 2
+[0141.90] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 3, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 64x64, format 2
+[0141.90] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 4, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 64x64, format 2
+[0141.90] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 5, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 64x64, format 2
+[0141.90] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 6, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 64x64, format 2
+[0141.90] Log: Flushed async loaders.
+[0141.90] Log: Starting RedrawViewports for texture streaming..
+[0142.00] Log: RedrawViewports took: 0.106027 seconds
+[0142.00] Log: Starting Level load StreamAllResources..
+[0142.29] Log: Level load StreamAllResources took: 0.284147 seconds
+[0142.29] Log: Initializing Engine Completed
+[0142.29] Log: >>>>>>>>>>>>>> Initial startup: 142.29s <<<<<<<<<<<<<<<
+[0142.29] Log: Browser user data directory is C:\Users\caare\AppData\Local\Temp\BrowserCache\Chaos
+[0144.36] Log: [Party] APComPlayerController::UpdateMCTSSession( 109775240978462333, 1 )
+[0144.41] Log: UTgGfxScene Initialize: UIBackground
+[0144.51] Log: UTgGfxScene Initialize: UIStoreDetail
+[0144.54] Log: UTgGfxScene Initialize: UIHome
+[0144.71] Log: UTgGfxScene Initialize: UIStore
+[0144.81] Log: UTgGfxScene Initialize: UIPlay
+[0144.91] Log: UTgGfxScene Initialize: UIMatchLobby
+[0145.09] Log: UTgGfxScene Initialize: UIProfile
+[0145.22] Log: UTgGfxScene Initialize: UILeaderboard
+[0145.25] Log: UTgGfxScene Initialize: UICustomGame
+[0145.32] Log: UTgGfxScene Initialize: UISocial
+[0145.44] Log: UTgGfxScene Initialize: UIEndOfMatchLobby
+[0145.55] Log: UTgGfxScene Initialize: UIQuests
+[0145.58] Log: UTgGfxScene Initialize: UICompetitive
+[0145.67] Log: UTgGfxScene Initialize: UIChampion
+[0145.72] Log: UTgGfxScene Initialize: UIChampionSelect
+[0145.76] Log: UTgGfxScene Initialize: UIChampionMastery
+[0145.77] Log: UTgGfxScene Initialize: UILogin
+[0146.00] Warning: Warning, Encounted an invalid HTML tag when validating string to send to flash: <http://www.hirez.com>
+[0146.09] Log: UTgGfxScene Initialize: UISettings
+[0146.15] Log: UTgGfxScene Initialize: UIEditLoadouts
+[0146.33] Log: UTgGfxScene Initialize: UIBattlePass
+[0146.49] Log: UTgGfxScene Initialize: UIBattlePassLevelUp
+[0146.51] Log: UTgGfxScene Initialize: UIBattlePassPurchase
+[0146.53] Log: UTgGfxScene Initialize: UIRadialMenuEquip
+[0146.58] Log: UTgGfxScene Initialize: UIStreetStyleEvent
+[0146.64] Log: UTgGfxScene Initialize: UIGifts
+[0146.65] Log: UTgGfxScene Initialize: UIFooter
+[0146.66] Log: UTgGfxScene Initialize: UILobbyChat
+[0146.67] Log: UTgGfxScene Initialize: UIProfileMini
+[0146.67] Log: UTgGfxScene Initialize: UIHeader
+[0146.72] Log: UTgGfxScene Initialize: UINotificationCenter
+[0146.74] Log: UTgGfxScene Initialize: UIAccountLinkPopup
+[0146.75] Log: UTgGfxScene Initialize: UIDailyReward
+[0146.76] Log: UTgGfxScene Initialize: UIDiscardQuestPopup
+[0146.76] Log: UTgGfxScene Initialize: UIPopup
+[0146.77] Log: UTgGfxScene Initialize: UIPopupRealMoneyPurchase
+[0146.77] Log: UTgGfxScene Initialize: UIInputPopup
+[0146.79] Log: UTgGfxScene Initialize: UICompetitivePopupWelcome
+[0146.80] Log: UTgGfxScene Initialize: UICompetitiveRankDecay
+[0146.80] Log: UTgGfxScene Initialize: UICompetitiveRankChange
+[0146.80] Log: UTgGfxScene Initialize: UIWebBrowser
+[0146.81] Log: UTgGfxScene Initialize: UIMatchInvite
+[0146.82] Log: UTgGfxScene Initialize: UILobbyBoosterSelect
+[0146.83] Log: UTgGfxScene Initialize: UILobbyBoosterActivation
+[0146.86] Log: UTgGfxScene Initialize: UIAcquisition
+[0146.88] Log: UTgGfxScene Initialize: UICouponAcquisition
+[0146.93] Log: UTgGfxScene Initialize: UIPurchase
+[0146.95] Log: UTgGfxScene Initialize: UIPopupPartyManager
+[0146.96] Log: UTgGfxScene Initialize: TgGfxTeamInvite
+[0146.96] Log: UTgGfxScene Initialize: UISkills
+[0146.97] Log: UTgGfxScene Initialize: UIPurchaseGems
+[0146.99] Log: UTgGfxScene Initialize: UIEOMLAcquisition
+[0147.01] Log: UTgGfxScene Initialize: UIPatchNotesPopup
+[0147.02] Log: UTgGfxScene Initialize: UIReferredRewardsPopup
+[0147.03] Log: UTgGfxScene Initialize: UIKeybindPopup
+[0147.03] Log: UTgGfxScene Initialize: UIGameMenu
+[0147.04] Log: UTgGfxScene Initialize: UIFacebookLivePopup
+[0147.05] Log: UTgGfxScene Initialize: UIPopupChampionLevelUp
+[0147.06] Log: UTgGfxScene Initialize: UIPopupPlaySettings
+[0147.07] Log: UTgGfxScene Initialize: UIStoreFilterPopup
+[0147.09] Log: UTgGfxScene Initialize: UIStoreRentSprayPopup
+[0147.10] Log: UTgGfxScene Initialize: UIPopupDeal
+[0147.12] Log: UTgGfxScene Initialize: UIBattlePassXPPurchase
+[0147.12] Log: UTgGfxScene Initialize: UIFullScreen
+[0147.14] Log: UTgGfxScene Initialize: UISendGift
+[0147.15] Log: UTgGfxScene Initialize: UIMatchLobbyTradePopup
+[0147.15] Log: UTgGfxScene Initialize: UIAchievementPopups
+[0147.16] Log: UTgGfxScene Initialize: UINotificationPopup
+[0147.17] Log: UTgGfxScene Initialize: UISafeFrame
+[0147.17] Log: UTgGfxScene Initialize: UIFooterGamepad
+[0147.18] Log: UTgGfxScene Initialize: UIFade
+[0147.18] Log: UTgGfxScene Initialize: UIFacebookLiveIndicator
+[0147.34] Warning: TgLobbyCamera_15 has unsupported physics mode 8
+[0149.95] Log: UUILogin::LoginReady: 0
+[0160.93] Log: Command not recognized: FlashReleaseMouse
+[0171.40] Log: Automatically detetecting settings: VID-0x8086 DID-0x1616 SLVL-11111-1280x720 FLVL-11111-1280x720
+[0174.78] Log: Map Game ID = 0
+[0174.78] Log: Map Instance ID = 246547644
+[0174.81] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0174.81] Log: Performance:  appCycles 9 nsec
+[0174.86] Log: Performance:  memCopy per KB 258 nsec
+[0174.87] Log: Performance:  memZero per KB 61 nsec
+[0174.88] Log: Performance:  appInterlockedIncrement 8 nsec
+[0174.88] Log: Performance:  GetTickCount 3 nsec
+[0180.01] Log: Time is 2019.04.29-20.06.32
+[0247.81] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0247.84] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0248.14] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0248.14] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0249.12] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0249.13] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0250.66] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0250.68] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0252.38] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0252.38] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0252.66] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0252.67] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0262.03] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0262.05] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0262.35] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0262.38] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0263.30] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0263.32] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0265.07] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0265.15] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0265.50] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0265.53] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0266.90] VoiceChat: Warn  VivoxClient::LocalMachine::CaptureDeviceMaybeChanged(1201) - Changing Capture Device to {0.0.1.00000000}.{985319f5-0fbc-4c10-9efd-6ab62a579cb1} Microphone (High Definition Audio Device)
+[0266.90] VoiceChat: Warn  VivoxClient::LocalMachine::RenderDeviceMaybeChanged(1167) - Changing Render Device to {0.0.0.00000000}.{fd682f4c-11f9-47aa-86a2-a4c211a3a4f2} Speakers (High Definition Audio Device)
+[0272.09] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0275.07] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0277.16] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0285.13] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0285.13] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0285.91] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0288.52] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0291.41] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0292.78] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0295.75] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0298.61] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0300.28] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0303.99] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0315.16] ScriptWarning: Accessed None 'GRI'
+	TgPlayerController LobbyMapV4_P.TheWorld:PersistentLevel.TgPlayerController_0
+	Function TgGame.TgPlayerController:ToggleSprint:002C
+[0336.56] Log: Automatically detetecting settings: VID-0x8086 DID-0x1616 SLVL-11111-1280x720 FLVL-11111-1280x720
+[0342.64] Log: Map Game ID = 0
+[0342.64] Log: Map Instance ID = 246547644
+[0342.66] Log: Performance: Critical section Lock/Unlock 25 nsec
+[0342.66] Log: Performance:  appCycles 9 nsec
+[0342.71] Log: Performance:  memCopy per KB 256 nsec
+[0342.73] Log: Performance:  memZero per KB 59 nsec
+[0342.74] Log: Performance:  appInterlockedIncrement 8 nsec
+[0342.74] Log: Performance:  GetTickCount 3 nsec
+[0361.45] Log: Automatically detetecting settings: VID-0x8086 DID-0x1616 SLVL-11111-1280x720 FLVL-11111-1280x720
+[0361.45] Log: Time is 2019.04.29-20.09.34
+[0365.30] Log: [Party] APComPlayerController::UpdateMCTSSession( 109775240978462333, 1 )
+[0365.51] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live//landingpanel.json
+[0370.24] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\landingpanel.json' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\Welcome.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\RAF.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\Social.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\BBMount.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\BBInara.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\BBBombKingApril.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\BBFernando.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\CovertBundle.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\SSAsh.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\SSSkye.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\SSMaeve.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\SSYing.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\LegAtlas.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\TPDrogoz.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\FrostPackSideOFF.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\GoddessSide.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\NightmareSide.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\ObsidianPack.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\SSPopUp.jpg' error ()
+[0370.25] Error: Failed to read file '..\..\ChaosGame\Downloaded\landingpanel\INT\TPPopUp.jpg' error ()
+[0370.25] Log: UPComJsonHandler::RequestNewJson called with url: http://cds.q6u4m8x5.hwcdn.net/LandingPanel/Paladins/live//seasonticket.json
+[0370.85] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\seasonticket.json' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\SPLFR81417.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\SCLFR824.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\PathtoHRX8617.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Fnatic.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\EnvyUs.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Ninjas.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\G2.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Virtus.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Natus_Vincere.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Renegades.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Splyce.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\Mousesports.jpg' error ()
+[0370.86] Error: Failed to read file '..\..\ChaosGame\Downloaded\seasonticket\INT\SKGaming.jpg' error ()
+[0370.86] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0370.86] TgSLO: Async Load: ANNOUNCERPACKASSETS_SF (ItemReferencer18647)
+[0370.86] Log: Map Game ID = 0
+[0370.86] Log: Map Instance ID = 246547644
+[0370.89] Log: Performance: Critical section Lock/Unlock 26 nsec
+[0370.89] Log: Performance:  appCycles 9 nsec
+[0370.95] Log: Performance:  memCopy per KB 280 nsec
+[0370.96] Log: Performance:  memZero per KB 74 nsec
+[0370.97] Log: Performance:  appInterlockedIncrement 9 nsec
+[0370.97] Log: Performance:  GetTickCount 3 nsec
+[0370.98] Log: [Chat Privileges] Received chat message 'Press ENTER to access chat.'
+[0370.98] Log: [Chat Privileges] Posting message
+[0370.98] Log: Chat[9]: Press ENTER to access chat.
+[0370.98] Log: UTgGfxScene Initialize: UIChatTab
+[0370.98] VoiceChat: UpdateVivox: Logging in as .2a6193e1., token e30.eyJpc3MiOiJwYWxhZGlucy1nc2MiLCJleHAiOjE1NTY1NDgwNTgsInZ4YSI6ImxvZ2luIiwidnhpIjo3NTcwMDgyLCJmIjoic2lwOi4yYTYxOTNlMS5AaHJwcC52aXZveC5jb20ifQ.bbAxROZg2B2bb-Oa4hpdDJs-MybMJxS-gBl5XO-LzxQ
+[0370.98] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0370.99] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0370.99] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0370.99] Log: UpdatePlatformActivities: Exiting due to missing activities
+[0371.03] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0371.03] Log: [Chat Privileges] Received chat message 'DemonSoulArp has joined the channel.'
+[0371.03] Log: [Chat Privileges] Posting message
+[0371.03] Log: RequestingChannelMembers ch[4]
+[0374.30] VoiceChat: Warn  VivoxAmSip::AmProvider::Initialize(317) - am_network_start() trying retval=0,port + offset=24010,port=23980
+[0374.30] VoiceChat: Warn  VivoxAmSip::AmProvider::Initialize(319) - am_network_start() returned retval=1,port + offset=24010,port=23980
+[0374.31] Log: UpdatePlatformActivities: Exiting due to missing activities
+[0374.31] VoiceChat: CVoiceInterfaceVivox::onConnectCompleted (https://hrpp.www.vivox.com/api2/)
+[0374.36] TgSLO: Finish Load: ANNOUNCERPACKASSETS_SF
+[0374.38] Log: >eChannel = 4
+[0374.38] Log: >>channel player DemonSoulArp
+[0375.66] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0375.89] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0376.09] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0376.14] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0376.33] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0376.46] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0376.47] VoiceChat: CVoiceInterfaceVivox::onLoginCompleted (.2a6193e1.)
+[0376.50] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0377.68] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0378.05] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 1499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 799
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 2499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 3499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 4999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 9999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 2999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 5999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 799
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 799
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 1499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = 
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 799
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 3999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 5999
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 499
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 799
+[0378.05] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0378.05] Log:                               ProductSKU = 
+[0378.05] Log:                               ConsoleDescription = 
+[0378.05] Log:                               ProductImage = 
+[0378.05] Log:                               Price = 1999
+[0378.05] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0378.09] TgSLO: Async Load: GlobalUI_SF
+[0378.72] TgSLO: Async Load: TERMINUS_UI_ASSETS_SF
+[0378.72] TgSLO: Async Load: KHAN_UI_ASSETS_SF
+[0378.72] TgSLO: Async Load: RUCKUS_UI_ASSETS_SF
+[0378.72] TgSLO: Async Load: CASSIE_UI_ASSETS_SF
+[0378.72] TgSLO: Async Load: GROHK_UI_ASSETS_SF
+[0378.72] TgSLO: Async Load: BUCK_UI_ASSETS_SF
+[0378.73] TgSLO: Async Load: MALDAMBA_UI_ASSETS_SF
+[0378.73] TgSLO: Async Load: VIKTOR_UI_ASSETS_SF
+[0379.10] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0379.10] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0379.12] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0379.26] TgSLO: Finish Load: GlobalUI_SF
+[0379.32] TgSLO: Finish Load: TERMINUS_UI_ASSETS_SF
+[0379.37] TgSLO: Finish Load: KHAN_UI_ASSETS_SF
+[0379.48] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 1499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 799
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 2499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 3499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 4999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 9999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 2999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 5999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 799
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 799
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 1499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = 
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 799
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 3999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 5999
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 499
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 799
+[0379.48] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0379.48] Log:                               ProductSKU = 
+[0379.48] Log:                               ConsoleDescription = 
+[0379.48] Log:                               ProductImage = 
+[0379.48] Log:                               Price = 1999
+[0379.48] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0379.51] TgSLO: Finish Load: RUCKUS_UI_ASSETS_SF
+[0379.53] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0379.56] TgSLO: Finish Load: CASSIE_UI_ASSETS_SF
+[0379.61] TgSLO: Finish Load: GROHK_UI_ASSETS_SF
+[0379.66] TgSLO: Finish Load: BUCK_UI_ASSETS_SF
+[0379.70] TgSLO: Finish Load: MALDAMBA_UI_ASSETS_SF
+[0379.75] TgSLO: Finish Load: VIKTOR_UI_ASSETS_SF
+[0380.18] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0380.93] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0381.50] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0382.13] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0382.49] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0383.19] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0386.13] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0391.46] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0391.46] Log: [Chat Privileges] Received chat message 'DemonSoulArp entered the party into a match queue.'
+[0391.46] Log: [Chat Privileges] Posting message
+[0391.46] Log: Chat[4]: DemonSoulArp entered the party into a match queue.
+[0391.46] Log: [Chat Privileges] Received chat message 'You have joined a match queue.'
+[0391.46] Log: [Chat Privileges] Posting message
+[0391.46] Log: Chat[9]: You have joined a match queue.
+[0393.29] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.30] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.30] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.31] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.31] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.32] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.32] Log: OnMatchInvite -- fTimeout = 30.00 -- bWarning = 0
+[0393.32] Log: OnMatchInvite -- fTimeout = 30.00 -- bWarning = 0
+[0393.32] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.41] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.41] Log: [Chat Privileges] Received chat message 'DemonSoulArp has joined the channel.'
+[0393.41] Log: [Chat Privileges] Posting message
+[0393.41] Log: RequestingChannelMembers ch[3]
+[0393.41] Log: UTgGfxScene Initialize: UIChatTab
+[0393.41] Log: [<>][<>] Set Channel #3 to UIChatTab.m_lsLobby (sName = )
+[0393.63] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.64] Log: CTgBattleClient - Match composition cached [12DCC270]
+[0393.64] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.64] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0393.64] Log: AUTOPICK: Found picked bot id 2285
+[0393.65] Log: AUTOPICK: Add available bot id 2281
+[0393.65] Log: AUTOPICK: Add available bot id 2491
+[0393.65] Log: AUTOPICK: Add available bot id 2493
+[0393.65] Log: AUTOPICK: Add available bot id 2477
+[0393.65] Log: AUTOPICK: Add available bot id 2092
+[0393.65] Log: AUTOPICK: Add available bot id 2431
+[0393.65] Log: AUTOPICK: Add available bot id 2362
+[0393.65] Log: AUTOPICK: Add available bot id 2149
+[0393.65] Log: AUTOPICK: Increment Picked Archetype 1
+[0393.65] Log: AUTOPICK: Need Support
+[0393.65] Log: AUTOPICK: Need Tank
+[0393.65] Log: AUTOPICK: Need Flank
+[0393.65] Log: AUTOPICK: Available Damage 2
+[0393.65] Log: AUTOPICK: Available Support 2
+[0393.65] Log: AUTOPICK: Available Tank 2
+[0393.65] Log: AUTOPICK: Available Flank 2
+[0393.65] Log: AUTOPICK: Picked bot id 2149 with archetype 0
+[0393.65] TgSLO: Async Load: VIKTOR_ASSETS_SF
+[0393.65] TgSLO: Async Load: VIKTOR_LOBBY_ASSETS_SF
+[0393.65] TgSLO: Async Load: VIKTOR_UI_ASSETS_SF
+[0393.65] TgSLO: Cancel Load: VIKTOR_ASSETS_SF
+[0393.65] TgSLO: Cancel Load: VIKTOR_LOBBY_ASSETS_SF
+[0393.65] TgSLO: Cancel Load: VIKTOR_UI_ASSETS_SF
+[0393.65] TgSLO: Async Load: VIKTOR_ASSETS_SF
+[0393.65] TgSLO: Async Load: VIKTOR_LOBBY_ASSETS_SF
+[0393.65] TgSLO: Async Load: VIKTOR_UI_ASSETS_SF
+[0393.69] Log: CTgBattleClient - Match composition cached [12DC9930]
+[0393.69] Log: ReceiveChangeMap: mapGameId 1610
+[0393.69] Log: ReceiveChangeMap: mapGameId 1610
+[0393.69] Log: Flushing async loaders. MinPriority=ALP_InProgress
+[0394.17] Log: Incomplete cached shader map for material MAT_UltImpact_Decal_A, quality 1, compiling.
+[0394.17] Log: Can't compile MAT_UltImpact_Decal_A with seekfree loading path on console, will attempt to use default material instead
+[0394.17] Warning: Warning, Failed to compile Material Instance FX_Viktor_Lycan.Materials.MIC_UltImpact_Decal_B with Base MAT_UltImpact_Decal_A for platform PC-D3D-SM5, Default Material will be used in game.
+[0394.17] Log: Incomplete cached shader map for material MAT_UltImpact_Decal_A, quality 1, compiling.
+[0394.17] Log: Can't compile MAT_UltImpact_Decal_A with seekfree loading path on console, will attempt to use default material instead
+[0394.17] Warning: Warning, Failed to compile Material Instance FX_Viktor_Lycan.Materials.MIC_UltImpact_Decal_C with Base MAT_UltImpact_Decal_A for platform PC-D3D-SM5, Default Material will be used in game.
+[0394.24] Warning: Warning, Failed to compile Material Instance PC_Viktor_Skin00B.Materials.MIC_PC_Viktor_Skin00B_LOBBY with Base DefaultMaterial for platform PC-D3D-SM5, Default Material will be used in game.
+[0394.89] TgSLO: Finish Load: VIKTOR_ASSETS_SF
+[0394.89] Log: Flushed async loaders.
+[0394.92] Log: Flushing async loaders. MinPriority=ALP_None
+[0395.11] TgSLO: Finish Load: VIKTOR_LOBBY_ASSETS_SF
+[0395.12] TgSLO: Finish Load: VIKTOR_UI_ASSETS_SF
+[0395.12] Log: Flushed async loaders.
+[0395.48] Log: [!!!] Initializing the transition manifest.
+[0395.48] Log: [!!!] Holding onto already loaded assets in the transition manifest in preparation for map load.
+[0395.53] Log: [!!!] Clearing the precache manifest.
+[0395.54] DevNet: URL: Adding default option Team=255
+[0395.55] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0395.56] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0395.56] Log: >eChannel = 3
+[0395.56] Log: >>channel player DemonSoulArp
+[0395.56] DevNet: URL: Adding default option Team=255
+[0395.56] DevNet: Browse: FT_P_v01?game=TgGame.TgGame_Paladins_Tutorial?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=824313626?Team=255
+[0395.57] Log: LoadMap: FT_P_v01?game=TgGame.TgGame_Paladins_Tutorial?GameState=OGS_NoSession?GameMode=0?name=Player?map_instance_id=824313626?Team=255
+[0395.63] Log: TgClientHUD Begin Unloading All Scenes
+[0395.63] Log: TgClientHUD Unload Scene: UIBackground
+[0395.63] Log: TgClientHUD Unload Scene: UIStoreDetail
+[0395.63] Log: TgClientHUD Unload Scene: UIHome
+[0395.63] Log: TgClientHUD Unload Scene: UIStore
+[0395.64] Log: TgClientHUD Unload Scene: UIPlay
+[0395.65] Log: TgClientHUD Unload Scene: UIMatchLobby
+[0395.65] Log: TgClientHUD Unload Scene: UIProfile
+[0395.67] Log: TgClientHUD Unload Scene: UILeaderboard
+[0395.67] Log: TgClientHUD Unload Scene: UICustomGame
+[0395.68] Log: TgClientHUD Unload Scene: UISocial
+[0395.68] Log: TgClientHUD Unload Scene: UIEndOfMatchLobby
+[0395.69] Log: TgClientHUD Unload Scene: UIQuests
+[0395.70] Log: TgClientHUD Unload Scene: UICompetitive
+[0395.70] Log: TgClientHUD Unload Scene: UIChampion
+[0395.71] Log: TgClientHUD Unload Scene: UIChampionSelect
+[0395.71] Log: TgClientHUD Unload Scene: UIChampionMastery
+[0395.71] Log: TgClientHUD Unload Scene: UILogin
+[0395.71] Log: TgClientHUD Found Shared Scene SWF: ..\SettingsMenu\SettingsMenu.swf
+[0395.71] Log: TgClientHUD Unload Scene: UIEditLoadouts
+[0395.71] Log: TgClientHUD Unload Scene: UIBattlePass
+[0395.73] Log: TgClientHUD Unload Scene: UIBattlePassLevelUp
+[0395.73] Log: TgClientHUD Unload Scene: UIBattlePassPurchase
+[0395.74] Log: TgClientHUD Unload Scene: UIRadialMenuEquip
+[0395.74] Log: TgClientHUD Unload Scene: UIStreetStyleEvent
+[0395.74] Log: TgClientHUD Unload Scene: UIGifts
+[0395.74] Log: TgClientHUD Unload Scene: UIFooter
+[0395.74] Log: TgClientHUD Unload Scene: UILobbyChat
+[0395.74] Log: TgClientHUD Unload Scene: UIProfileMini
+[0395.74] Log: TgClientHUD Unload Scene: UIHeader
+[0395.74] Log: TgClientHUD Unload Scene: UINotificationCenter
+[0395.74] Log: TgClientHUD Unload Scene: UIAccountLinkPopup
+[0395.74] Log: TgClientHUD Unload Scene: UIDailyReward
+[0395.75] Log: TgClientHUD Unload Scene: UIDiscardQuestPopup
+[0395.75] Log: TgClientHUD Found Shared Scene SWF: ..\Popup\Popup.swf
+[0395.75] Log: TgClientHUD Unload Scene: UIPopupRealMoneyPurchase
+[0395.75] Log: TgClientHUD Unload Scene: UIInputPopup
+[0395.75] Log: TgClientHUD Unload Scene: UICompetitivePopupWelcome
+[0395.75] Log: TgClientHUD Unload Scene: UICompetitiveRankChange
+[0395.75] Log: TgClientHUD Found Shared Scene SWF: ..\WebBrowser\WebBrowser.swf
+[0395.75] Log: TgClientHUD Unload Scene: UIMatchInvite
+[0395.75] Log: TgClientHUD Unload Scene: UILobbyBoosterSelect
+[0395.75] Log: TgClientHUD Unload Scene: UILobbyBoosterActivation
+[0395.75] Log: TgClientHUD Unload Scene: UIAcquisition
+[0395.75] Log: TgClientHUD Unload Scene: UICouponAcquisition
+[0395.75] Log: TgClientHUD Unload Scene: UIPurchase
+[0395.75] Log: TgClientHUD Unload Scene: UIPopupPartyManager
+[0395.76] Log: TgClientHUD Unload Scene: UITeamInvite
+[0395.76] Log: TgClientHUD Found Shared Scene SWF: ..\Skills\Skills.swf
+[0395.76] Log: TgClientHUD Unload Scene: UIPurchaseGems
+[0395.76] Log: TgClientHUD Unload Scene: UIEOMLAcquisition
+[0395.76] Log: TgClientHUD Unload Scene: UIPatchNotesPopup
+[0395.76] Log: TgClientHUD Unload Scene: UIReferredRewardsPopup
+[0395.76] Log: TgClientHUD Found Shared Scene SWF: ..\SettingsMenu\KeybindPopup.swf
+[0395.76] Log: TgClientHUD Unload Scene: UIGameMenu
+[0395.76] Log: TgClientHUD Found Shared Scene SWF: ..\FacebookLive\FacebookLivePopup.swf
+[0395.76] Log: TgClientHUD Unload Scene: UIPopupChampionLevelUp
+[0395.76] Log: TgClientHUD Unload Scene: UIPlaySettings
+[0395.76] Log: TgClientHUD Unload Scene: UIStoreFilterPopup
+[0395.76] Log: TgClientHUD Unload Scene: UIStoreRentSprayPopup
+[0395.76] Log: TgClientHUD Unload Scene: UIPopupDeal
+[0395.76] Log: TgClientHUD Unload Scene: UIBattlePassXPPurchase
+[0395.77] Log: TgClientHUD Unload Scene: UIFullScreen
+[0395.77] Log: TgClientHUD Unload Scene: UISendGift
+[0395.77] Log: TgClientHUD Unload Scene: UIMatchLobbyTradePopup
+[0395.77] Log: TgClientHUD Found Shared Scene SWF: ..\Popup\AchievementPopups.swf
+[0395.77] Log: TgClientHUD Unload Scene: UINotificationPopup
+[0395.77] Log: TgClientHUD Unload Scene: UISafeFrame
+[0395.77] Log: TgClientHUD Found Shared Scene SWF: ..\Footer\GamepadFooter.swf
+[0395.77] Log: TgClientHUD Found Shared Scene SWF: ..\Transition\UIFade.swf
+[0395.77] Log: TgClientHUD Found Shared Scene SWF: ..\FacebookLive\FacebookLiveIndicator.swf
+[0395.77] Log: TgClientHUD Flush Flash
+[0395.77] Log: UTgGfxScene Unitialize: UIBackground
+[0395.77] Log: UTgGfxScene Unitialize: UIStoreDetail
+[0395.77] Log: UTgGfxScene Unitialize: UIHome
+[0395.79] Log: UTgGfxScene Unitialize: UIStore
+[0395.79] Log: UTgGfxScene Unitialize: UIPlay
+[0395.80] Log: UTgGfxScene Unitialize: UIMatchLobby
+[0395.81] Log: UTgGfxScene Unitialize: UIProfile
+[0395.82] Log: UTgGfxScene Unitialize: UILeaderboard
+[0395.82] Log: UTgGfxScene Unitialize: UICustomGame
+[0395.83] Log: UTgGfxScene Unitialize: UISocial
+[0395.84] Log: UTgGfxScene Unitialize: UIEndOfMatchLobby
+[0395.84] Log: UTgGfxScene Unitialize: UIQuests
+[0395.84] Log: UTgGfxScene Unitialize: UICompetitive
+[0395.85] Log: UTgGfxScene Unitialize: UIChampion
+[0395.85] Log: UTgGfxScene Unitialize: UIChampionSelect
+[0395.85] Log: UTgGfxScene Unitialize: UIChampionMastery
+[0395.85] Log: UTgGfxScene Unitialize: UILogin
+[0395.86] Log: UTgGfxScene Unitialize: UIEditLoadouts
+[0395.88] Log: UTgGfxScene Unitialize: UIBattlePass
+[0395.89] Log: UTgGfxScene Unitialize: UIBattlePassLevelUp
+[0395.89] Log: UTgGfxScene Unitialize: UIBattlePassPurchase
+[0395.89] Log: UTgGfxScene Unitialize: UIRadialMenuEquip
+[0395.89] Log: UTgGfxScene Unitialize: UIStreetStyleEvent
+[0395.90] Log: UTgGfxScene Unitialize: UIGifts
+[0395.90] Log: UTgGfxScene Unitialize: UIFooter
+[0395.90] Log: UTgGfxScene Unitialize: UILobbyChat
+[0395.90] Log: UTgGfxScene Unitialize: UIProfileMini
+[0395.90] Log: UTgGfxScene Unitialize: UIHeader
+[0395.90] Log: UTgGfxScene Unitialize: UINotificationCenter
+[0395.90] Log: UTgGfxScene Unitialize: UIAccountLinkPopup
+[0395.90] Log: UTgGfxScene Unitialize: UIDailyReward
+[0395.90] Log: UTgGfxScene Unitialize: UIDiscardQuestPopup
+[0395.90] Log: UTgGfxScene Unitialize: UIPopupRealMoneyPurchase
+[0395.90] Log: UTgGfxScene Unitialize: UIInputPopup
+[0395.90] Log: UTgGfxScene Unitialize: UICompetitivePopupWelcome
+[0395.90] Log: UTgGfxScene Unitialize: UICompetitiveRankChange
+[0395.90] Log: UTgGfxScene Unitialize: UIMatchInvite
+[0395.90] Log: UTgGfxScene Unitialize: UILobbyBoosterSelect
+[0395.90] Log: UTgGfxScene Unitialize: UILobbyBoosterActivation
+[0395.91] Log: UTgGfxScene Unitialize: UIAcquisition
+[0395.91] Log: UTgGfxScene Unitialize: UICouponAcquisition
+[0395.91] Log: UTgGfxScene Unitialize: UIPurchase
+[0395.91] Log: UTgGfxScene Unitialize: UIPopupPartyManager
+[0395.91] Log: UTgGfxScene Unitialize: TgGfxTeamInvite
+[0395.91] Log: UTgGfxScene Unitialize: UIPurchaseGems
+[0395.91] Log: UTgGfxScene Unitialize: UIEOMLAcquisition
+[0395.91] Log: UTgGfxScene Unitialize: UIPatchNotesPopup
+[0395.91] Log: UTgGfxScene Unitialize: UIReferredRewardsPopup
+[0395.91] Log: UTgGfxScene Unitialize: UIGameMenu
+[0395.91] Log: UTgGfxScene Unitialize: UIPopupChampionLevelUp
+[0395.91] Log: UTgGfxScene Unitialize: UIPopupPlaySettings
+[0395.91] Log: UTgGfxScene Unitialize: UIStoreFilterPopup
+[0395.91] Log: UTgGfxScene Unitialize: UIStoreRentSprayPopup
+[0395.91] Log: UTgGfxScene Unitialize: UIPopupDeal
+[0395.91] Log: UTgGfxScene Unitialize: UIBattlePassXPPurchase
+[0395.92] Log: UTgGfxScene Unitialize: UIFullScreen
+[0395.92] Log: UTgGfxScene Unitialize: UISendGift
+[0395.92] Log: UTgGfxScene Unitialize: UIMatchLobbyTradePopup
+[0395.92] Log: UTgGfxScene Unitialize: UINotificationPopup
+[0395.92] Log: UTgGfxScene Unitialize: UISafeFrame
+[0395.97] Log: TgClientHUD Finished Unloading All Scenes
+[0395.97] Log: [!!!] Clearing the precache manifest.
+[0396.05] Log: UTgGfxScene Unitialize: UIChatTab
+[0396.05] Log: UTgGfxScene Unitialize: UIChatTab
+[0396.32] Log: (AHavokNavMeshActor::InitializeNavMesh) Region 0 has area 361205.093750
+[0396.32] Log: (AHavokNavMeshActor::InitializeNavMesh) Region 1 has area 26587.357422
+[0396.32] Log: (AHavokNavMeshActor::InitializeNavMesh) Region 2 has area 19934.234375
+[0396.32] Log: (AHavokNavMeshActor::InitializeNavMesh) Region 3 has area 7914.070313
+[0396.32] Log: (AHavokNavMeshActor::InitializeNavMesh) Total regions found = 4
+[0396.84] Log: Texture 'ft_p_v01.ShadowMapTexture2D_16', mip 3, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 64x64, format 2
+[0396.84] Log: Texture 'ft_p_v01.ShadowMapTexture2D_16', mip 4, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 64x64, format 2
+[0396.84] Log: Texture 'ft_p_v01.ShadowMapTexture2D_16', mip 5, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 64x64, format 2
+[0396.84] Log: Texture 'ft_p_v01.ShadowMapTexture2D_16', mip 6, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 64x64, format 2
+[0396.84] Log: Map Game ID = 0
+[0396.84] Log: Map Instance ID = 246547644
+[0396.87] Log: Performance: Critical section Lock/Unlock 29 nsec
+[0396.87] Log: Performance:  appCycles 10 nsec
+[0396.95] Log: Performance:  memCopy per KB 363 nsec
+[0396.96] Log: Performance:  memZero per KB 76 nsec
+[0396.97] Log: Performance:  appInterlockedIncrement 8 nsec
+[0396.98] Log: Performance:  GetTickCount 3 nsec
+[0396.98] TgSLO: Async Load: GameRefs_SF
+[0396.98] TgSLO: Async Load: GameUI_SF
+[0396.98] TgSLO: Async Load: VIKTOR_ASSETS_SF (SkinReferencer14173)
+[0396.98] TgSLO: Async Load: VIKTOR_UI_ASSETS_SF (SkinReferencer14173)
+[0396.98] TgSLO: Async Load: VIKTOR_ASSETS_SF (SkinReferencer15154)
+[0396.98] TgSLO: Async Load: VIKTOR_UI_ASSETS_SF (SkinReferencer15154)
+[0396.98] TgSLO: Async Load: DEVICE14127_ASSETS_SF (SkinReferencer14174)
+[0396.98] TgSLO: Async Load: DEVICE14127_UI_ASSETS_SF (SkinReferencer14174)
+[0396.98] TgSLO: Async Load: MOUNT_BOT_ASSETS_SF (SkinReferencer12616)
+[0396.98] TgSLO: Async Load: SPRAYASSETS_SF (ItemReferencer15587)
+[0396.98] TgSLO: Async Load: ANDROXUS_ASSETS_SF (SkinReferencer12199)
+[0396.98] TgSLO: Async Load: ANDROXUS_UI_ASSETS_SF (SkinReferencer12199)
+[0396.98] TgSLO: Async Load: ANDROXUS_ASSETS_SF (SkinReferencer15129)
+[0396.98] TgSLO: Async Load: ANDROXUS_UI_ASSETS_SF (SkinReferencer15129)
+[0396.98] TgSLO: Async Load: DEVICE12489_ASSETS_SF (SkinReferencer13168)
+[0396.98] TgSLO: Async Load: DEVICE12489_UI_ASSETS_SF (SkinReferencer13168)
+[0396.98] TgSLO: Async Load: YING_ASSETS_SF (SkinReferencer13212)
+[0396.98] TgSLO: Async Load: YING_UI_ASSETS_SF (SkinReferencer13212)
+[0396.98] TgSLO: Async Load: YING_ASSETS_SF (SkinReferencer15418)
+[0396.98] TgSLO: Async Load: YING_UI_ASSETS_SF (SkinReferencer15418)
+[0396.98] TgSLO: Async Load: DEVICE13279_ASSETS_SF (SkinReferencer13221)
+[0396.98] TgSLO: Async Load: DEVICE13279_UI_ASSETS_SF (SkinReferencer13221)
+[0396.98] Log: Flushing async loaders. MinPriority=ALP_Immediate
+[0397.33] TgSLO: Finish Load: GameRefs_SF
+[0398.33] TgSLO: Finish Load: GameUI_SF
+[0398.41] TgSLO: Finish Load: VIKTOR_ASSETS_SF
+[0398.41] TgSLO: Finish Load: VIKTOR_ASSETS_SF
+[0398.42] TgSLO: Finish Load: VIKTOR_UI_ASSETS_SF
+[0398.42] TgSLO: Finish Load: VIKTOR_UI_ASSETS_SF
+[0398.68] TgSLO: Finish Load: DEVICE14127_ASSETS_SF
+[0398.68] TgSLO: Finish Load: DEVICE14127_UI_ASSETS_SF
+[0398.89] TgSLO: Finish Load: MOUNT_BOT_ASSETS_SF
+[0398.93] TgSLO: Finish Load: SPRAYASSETS_SF
+[0399.82] TgSLO: Finish Load: ANDROXUS_ASSETS_SF
+[0399.82] TgSLO: Finish Load: ANDROXUS_ASSETS_SF
+[0399.86] TgSLO: Finish Load: ANDROXUS_UI_ASSETS_SF
+[0399.86] TgSLO: Finish Load: ANDROXUS_UI_ASSETS_SF
+[0400.22] TgSLO: Finish Load: DEVICE12489_ASSETS_SF
+[0400.24] TgSLO: Finish Load: DEVICE12489_UI_ASSETS_SF
+[0401.10] TgSLO: Finish Load: YING_ASSETS_SF
+[0401.10] TgSLO: Finish Load: YING_ASSETS_SF
+[0401.13] TgSLO: Finish Load: YING_UI_ASSETS_SF
+[0401.13] TgSLO: Finish Load: YING_UI_ASSETS_SF
+[0401.43] TgSLO: Finish Load: DEVICE13279_ASSETS_SF
+[0401.45] TgSLO: Finish Load: DEVICE13279_UI_ASSETS_SF
+[0401.45] Log: Flushed async loaders.
+[0401.45] Log: [!!!] Clearing the transition manifest.
+[0401.45] Log: Game class is 'TgGame_Paladins_Tutorial'
+[0401.45] Log: Match ID: 824313626
+[0401.46] Log: Primary PhysX scene will be in software.
+[0401.46] Log: Creating Primary PhysX Scene.
+[0401.48] Log: Bringing World ft_p_v01.TheWorld up for play (0) at 2019.04.29-20.10.14
+[0401.48] Log: Skipping initialization of FSMPartPool!
+[0401.48] Warning: Warning, Failed to load 'Class TgGameContent.TgKeepContentPackageLoaded': Failed to find object 'Class TgGameContent.TgKeepContentPackageLoaded'
+[0401.48] Log: Gameplay Events: Events will not be recorded due to configuration
+[0401.48] Log: Bringing up level for play took: 0.033550
+[0401.48] Log: Net Access flags for 0: 00000080 00000000
+[0401.48] Log: player_id 711037921
+[0401.65] Log: Spawn character  PlayerId: 711037921
+[0401.65] Log: Spawning new pawn for player 711037921
+[0401.68] Log: CStatsTracker::Begin has a 0 profile id for player 711037921
+[0401.68] Log: WARNING: game.stats_queued_eom_submit_secs is not set.
+[0401.68] ScriptWarning: Accessed None 'myHUD'
+	TgPlayerController ft_p_v01.TheWorld:PersistentLevel.TgPlayerController_1
+	Function TgGame.TgPlayerController:ClientOnRoundSetupStarted:0026
+[0401.74] Log: TgClientHUD Begin Loading All Scenes
+[0401.74] Log: TgClientHUD Load Scene: UIWorldOverlay
+[0401.74] Log: TgClientHUD Load Scene: UIHud
+[0401.74] Log: TgClientHUD Load Scene: UIHudVoiceChat
+[0401.74] Log: TgClientHUD Load Scene: UIHudVGS
+[0401.74] Log: TgClientHUD Load Scene: UIHudMenu
+[0401.74] Log: TgClientHUD Load Scene: UIHudBurns
+[0401.74] Log: TgClientHUD Load Scene: UIHudDecks
+[0401.74] Log: TgClientHUD Load Scene: UIHudRecap
+[0401.74] Log: TgClientHUD Load Scene: GameTip
+[0401.74] Log: TgClientHUD Load Scene: UIHudOverlays
+[0401.74] Log: TgClientHUD Load Scene: UIHudScoreboard
+[0401.74] Log: TgClientHUD Load Scene: UIHudChampionSelect
+[0401.74] Log: TgClientHUD Load Scene: UIRadialMenu
+[0401.74] Log: TgClientHUD Load Scene: Cursor
+[0401.74] Log: TgClientHUD Load Scene: UIHudResult
+[0401.74] Log: TgClientHUD Load Scene: UISubtitle
+[0401.74] Log: TgClientHUD Finished Loading All Scenes
+[0401.74] Warning: StaticLoadObject for AkEvent WW_MUS_Lobby MUS_Lobby_Default_GameIntro_SetSwitch couldn't find object in memory!
+[0401.74] Warning: Warning, Failed to load 'AkEvent WW_MUS_Lobby.MUS_Lobby_Default_GameIntro_SetSwitch': Failed to find object 'AkEvent WW_MUS_Lobby.MUS_Lobby_Default_GameIntro_SetSwitch'
+[0401.74] Warning: Invalid parameters specified for UTexture2DDynamic::Create()
+[0401.74] Log: INVALID MASKTEXTURE
+[0401.74] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0401.75] Log: ########### Finished loading level: 6.174571 seconds
+[0401.75] Log: Flushing async loaders. MinPriority=ALP_None
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 3, has a BulkDataSize [4096] that doesn't match calculated size [16384]. Texture size 512x512, format 2
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 4, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 512x512, format 2
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 5, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 512x512, format 2
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 6, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 512x512, format 2
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 7, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 512x512, format 2
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 8, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 512x512, format 2
+[0403.21] Log: Texture 'ft_gauntlet_v01.ShadowMapTexture2D_15', mip 9, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 512x512, format 2
+[0403.21] Log: Flushed async loaders.
+[0403.21] Log: Starting RedrawViewports for texture streaming..
+[0403.29] Log: RedrawViewports took: 0.081363 seconds
+[0403.29] Log: Starting Level load StreamAllResources..
+[0403.33] Log: Level load StreamAllResources took: 0.033499 seconds
+[0403.39] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0403.39] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0403.39] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0403.39] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0403.40] Log: Command not recognized: switchclass Viktor
+[0403.41] Log: Set audio group (MUS_Level_default) to new audio switch (Round_Reset) during music event update
+[0403.41] Log: ATgPawn::ReceiveInventoryData called
+[0403.41] Log: SendMarshal is sending 12 inventory objects to player DemonSoulArp (711037921)
+[0403.45] Log: UTgGfxScene Unitialize: UICompetitiveRankDecay
+[0403.74] Log: UTgGfxScene Initialize: UIWorldOverlay
+[0403.83] Log: UTgGfxScene Initialize: UIHud
+[0403.83] Log: UTgGfxScene Initialize: UIHudWaypoint
+[0403.83] Log: UTgGfxScene Initialize: UIHudTarget
+[0403.83] Log: UTgGfxScene Initialize: UIHudCenter
+[0403.84] Log: UTgGfxScene Initialize: UIHudKillFeed
+[0403.85] Log: UTgGfxScene Initialize: UIHudDebuff
+[0403.85] Log: UTgGfxScene Initialize: UIHudCredits
+[0403.85] Log: UTgGfxScene Initialize: UIHudCards
+[0403.85] Log: UTgGfxScene Initialize: UIHudPlayer
+[0403.86] Log: UTgGfxScene Initialize: UIHudPlayer_NPC
+[0403.86] Log: UTgGfxScene Initialize: UIHudSkills
+[0403.87] Log: UTgGfxScene Initialize: UIHudSkills3P
+[0403.87] Log: UTgGfxScene Initialize: UIHudChat
+[0403.88] Log: UTgGfxScene Initialize: UIHudScore
+[0403.88] Log: UTgGfxScene Initialize: UIHudTeam
+[0403.91] Log: UTgGfxScene Initialize: UIHudNotify
+[0403.91] Log: UTgGfxScene Initialize: UIHudVoiceChat
+[0403.92] Log: UTgGfxScene Initialize: UIHudVGS
+[0403.92] Log: UTgGfxScene Initialize: UIHudMenu
+[0403.93] Log: UTgGfxScene Initialize: UIHudBurns
+[0403.96] Log: UTgGfxScene Initialize: UIHudDecks
+[0403.98] Log: UTgGfxScene Initialize: UIHudRecap
+[0403.99] Log: UTgGfxScene Initialize: UIHudTip
+[0404.00] Log: UTgGfxScene Initialize: UIHudOverlays
+[0404.00] Log: UTgGfxScene Initialize: UIHudSniper
+[0404.00] Log: UTgGfxScene Initialize: UIHudStrix
+[0404.02] Log: UTgGfxScene Initialize: UIHudImani
+[0404.02] Log: UTgGfxScene Initialize: UIHudChomp
+[0404.02] Log: UTgGfxScene Initialize: UIHudKoga
+[0404.02] Log: UTgGfxScene Initialize: UIHudBinoculars
+[0404.02] Log: UTgGfxScene Initialize: UIHudAtlas
+[0404.05] Log: UTgGfxScene Initialize: UIHudScoreboard
+[0404.08] Log: UTgGfxScene Initialize: UIHudChampionSelect
+[0404.10] Log: UTgGfxScene Initialize: UIRadialMenu
+[0404.11] Log: UTgGfxScene Initialize: TgGfxCursor
+[0404.11] Log: UTgGfxScene Unitialize: TgGfxCursor
+[0404.11] Log: UTgGfxScene Initialize: UIHudResult
+[0404.11] Log: UTgGfxScene Initialize: UISubtitle
+[0404.16] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0404.16] Log: [Chat Privileges] Received chat message 'DemonSoulArp has joined the channel.'
+[0404.16] Log: [Chat Privileges] Posting message
+[0404.16] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Training 0 0 
+[0404.16] Log: [Chat Privileges] Received chat message 'DemonSoulArp has left the channel.'
+[0404.16] Log: [Chat Privileges] Posting message
+[0404.16] Log: RequestingChannelMembers ch[3]
+[0404.16] Log: [Chat Privileges] Received chat message 'DemonSoulArp has joined the channel.'
+[0404.16] Log: [Chat Privileges] Posting message
+[0404.16] Log: RequestingChannelMembers ch[3]
+[0404.51] Log: >eChannel = 3
+[0404.51] Log: >>channel player DemonSoulArp
+[0404.51] Log: >eChannel = 3
+[0404.51] Log: >>channel player DemonSoulArp
+[0433.08] Log: Failed to locate VoiceChat order for player
+[0433.09] Log: Failed to locate VoiceChat order for player
+[0438.01] Log: PAWN: Spawn Gates Opened!
+[0467.50] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0467.50] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0467.50] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0467.50] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0477.05] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0477.05] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0477.05] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0477.05] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0477.70] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0477.70] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0477.70] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0477.70] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0478.44] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0478.44] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0478.44] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0478.44] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0490.98] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0490.98] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0490.98] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0490.98] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0491.63] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0491.63] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0491.63] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0491.63] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0492.38] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0492.38] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0492.38] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0492.38] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0536.21] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0536.21] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0536.21] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0536.21] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0536.84] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0536.84] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0536.84] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0536.84] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0537.59] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0537.59] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0537.59] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0537.59] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0541.45] Log: Time is 2019.04.29-20.12.34
+[0566.67] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0566.67] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0566.67] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0566.67] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0567.30] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0567.30] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0567.30] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0567.30] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0568.03] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0568.03] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0568.03] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0568.03] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0576.03] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0576.03] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0576.03] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0576.03] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0576.65] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0576.65] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0576.65] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0576.65] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0577.40] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0577.40] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0577.40] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0577.40] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0589.09] Warning: StaticLoadObject for AkBaseSoundObject AUD_UI_Notifications A_CUE_UI_Notification_Point_Picked couldn't find object in memory!
+[0589.09] Warning: Warning, Failed to load 'AkBaseSoundObject AUD_UI_Notifications.A_CUE_UI_Notification_Point_Picked': Failed to find object 'AkBaseSoundObject AUD_UI_Notifications.A_CUE_UI_Notification_Point_Picked'
+[0591.04] Warning: StaticLoadObject for AkBaseSoundObject AUD_UI_Notifications A_CUE_UI_Notification_Point_Activated couldn't find object in memory!
+[0591.04] Warning: Warning, Failed to load 'AkBaseSoundObject AUD_UI_Notifications.A_CUE_UI_Notification_Point_Activated': Failed to find object 'AkBaseSoundObject AUD_UI_Notifications.A_CUE_UI_Notification_Point_Activated'
+[0599.38] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 1499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 799
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 2499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 3499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 4999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 9999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 2999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 5999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 799
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 799
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 1499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = 
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 799
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 3999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 5999
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 499
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 799
+[0599.38] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0599.38] Log:                               ProductSKU = 
+[0599.38] Log:                               ConsoleDescription = 
+[0599.38] Log:                               ProductImage = 
+[0599.38] Log:                               Price = 1999
+[0599.38] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0615.76] Log: Failed to locate VoiceChat order for player
+[0615.76] ScriptWarning: Accessed None
+	TgPawn_Androxus ft_p_v01.TheWorld:PersistentLevel.TgPawn_Androxus_16
+	Function TgGame.TgPawn:VolumeStealthFadeComplete:0039
+[0615.77] Log: Failed to locate VoiceChat order for player
+[0615.77] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0615.77] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0615.77] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0615.77] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0617.36] Log: Set audio group (MUS_Level_default) to new audio switch (Point_AlmostCaptured) during music event update
+[0628.38] Log: Set audio group (MUS_Level_default) to new audio switch (Point_Captured) during music event update
+[0628.38] Log: Failed to locate VoiceChat order for player
+[0628.47] Log: AttachToOwner - Socket (EffectsSocket) not found in owner mesh or its parent! (6615 to NONE)
+[0628.47] Log: Failed to locate VoiceChat order for player
+[0628.47] ScriptWarning: Accessed None 'm_WeaponMesh'
+	TgPawn_SiegeEngine_CaptureAndPayload ft_p_v01.TheWorld:PersistentLevel.TgPawn_SiegeEngine_CaptureAndPayload_0
+	Function TgGame.TgPawn:UpdateWeaponMesh:0248
+[0628.47] Log: TgPawn_SiegeEngine_CaptureAndPayload_0 setting spline from None to TgSplineActor_Payload_1
+[0628.47] Log: TgPawn_SiegeEngine_CaptureAndPayload_0 Total distance: 2693.920410. Adjusted speed scale: 0.242696
+[0628.87] Log: Failed to locate VoiceChat order for player
+[0629.37] Log: Failed to locate VoiceChat order for player
+[0629.87] Log: Failed to locate VoiceChat order for player
+[0630.37] Log: Failed to locate VoiceChat order for player
+[0630.87] Log: Failed to locate VoiceChat order for player
+[0631.37] Log: Failed to locate VoiceChat order for player
+[0631.87] Log: Failed to locate VoiceChat order for player
+[0632.37] Log: Failed to locate VoiceChat order for player
+[0632.87] Log: Failed to locate VoiceChat order for player
+[0633.37] Log: Failed to locate VoiceChat order for player
+[0633.88] Log: Failed to locate VoiceChat order for player
+[0634.37] Log: Failed to locate VoiceChat order for player
+[0634.87] Log: Failed to locate VoiceChat order for player
+[0635.37] Log: Failed to locate VoiceChat order for player
+[0635.87] Log: Failed to locate VoiceChat order for player
+[0636.37] Log: Failed to locate VoiceChat order for player
+[0636.87] Log: Failed to locate VoiceChat order for player
+[0637.37] Log: Failed to locate VoiceChat order for player
+[0637.87] Log: Failed to locate VoiceChat order for player
+[0638.37] Log: Failed to locate VoiceChat order for player
+[0638.75] Log: TgPawn_SiegeEngine_CaptureAndPayload_0 setting spline from TgSplineActor_Payload_1 to TgSplineActor_Payload_2
+[0638.88] Log: Failed to locate VoiceChat order for player
+[0639.37] Log: Failed to locate VoiceChat order for player
+[0639.88] Log: Failed to locate VoiceChat order for player
+[0640.37] Log: Failed to locate VoiceChat order for player
+[0640.87] Log: Failed to locate VoiceChat order for player
+[0641.37] Log: Failed to locate VoiceChat order for player
+[0641.87] Log: Failed to locate VoiceChat order for player
+[0642.37] Log: Failed to locate VoiceChat order for player
+[0642.58] Log: Failed to locate VoiceChat order for player
+[0642.59] Log: Failed to locate VoiceChat order for player
+[0642.59] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0642.59] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0642.59] Warning: StaticLoadObject for SkeletalMesh Meshes SKL_ACC_Androxus_Skin00A couldn't find object in memory!
+[0642.59] Warning: Warning, Failed to load 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A': Failed to find object 'SkeletalMesh ACC_Androxus_Skin00A.Meshes.SKL_ACC_Androxus_Skin00A'
+[0644.49] Log: TgPawn_SiegeEngine_CaptureAndPayload_0 setting spline from TgSplineActor_Payload_2 to TgSplineActor_Payload_3
+[0647.87] Log: Failed to locate VoiceChat order for player
+[0648.37] Log: Failed to locate VoiceChat order for player
+[0648.87] Log: Failed to locate VoiceChat order for player
+[0649.37] Log: Failed to locate VoiceChat order for player
+[0649.87] Log: Failed to locate VoiceChat order for player
+[0650.38] Log: Failed to locate VoiceChat order for player
+[0650.87] Log: Failed to locate VoiceChat order for player
+[0651.37] Log: Failed to locate VoiceChat order for player
+[0651.87] Log: Failed to locate VoiceChat order for player
+[0652.37] Log: Failed to locate VoiceChat order for player
+[0652.87] Log: Failed to locate VoiceChat order for player
+[0653.37] Log: Failed to locate VoiceChat order for player
+[0653.87] Log: Failed to locate VoiceChat order for player
+[0654.37] Log: Failed to locate VoiceChat order for player
+[0654.87] Log: Failed to locate VoiceChat order for player
+[0655.37] Log: Failed to locate VoiceChat order for player
+[0655.87] Log: Failed to locate VoiceChat order for player
+[0656.37] Log: Failed to locate VoiceChat order for player
+[0656.87] Log: Failed to locate VoiceChat order for player
+[0657.36] Log: Failed to locate VoiceChat order for player
+[0657.87] Log: Failed to locate VoiceChat order for player
+[0658.37] Log: Failed to locate VoiceChat order for player
+[0658.86] Log: Failed to locate VoiceChat order for player
+[0659.37] Log: Failed to locate VoiceChat order for player
+[0659.76] Log: TgPawn_SiegeEngine_CaptureAndPayload_0 setting spline from TgSplineActor_Payload_3 to TgSplineActor_Payload_4
+[0659.87] Log: Failed to locate VoiceChat order for player
+[0660.01] Warning: Attempting to get champion unlock sound, but unable to get champion vox string for bot with id: 2286
+[0660.01] Log: [WARNING] Would have crashed loading 'WW_VOX_Announcer.Announcer_SP_Death_Play', this will not play.
+[0660.31] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0660.31] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.31] Log:                               ProductSKU = 
+[0660.31] Log:                               ConsoleDescription = 
+[0660.31] Log:                               ProductImage = 
+[0660.31] Log:                               Price = 1499
+[0660.31] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.31] Log:                               ProductSKU = 
+[0660.31] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 799
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 2499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 3499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 4999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 9999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 2999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 5999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 799
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 799
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 1499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 799
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 3999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 5999
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 499
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 799
+[0660.32] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0660.32] Log:                               ProductSKU = 
+[0660.32] Log:                               ConsoleDescription = 
+[0660.32] Log:                               ProductImage = 
+[0660.32] Log:                               Price = 1999
+[0660.32] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0660.59] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 1499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 2499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 3499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 4999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 9999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 2999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 5999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 1499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 3999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 5999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 1999
+[0660.59] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0660.59] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 1499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 2499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 3499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 4999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 9999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 2999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 5999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 1499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 3999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 5999
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 499
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 799
+[0660.59] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0660.59] Log:                               ProductSKU = 
+[0660.59] Log:                               ConsoleDescription = 
+[0660.59] Log:                               ProductImage = 
+[0660.59] Log:                               Price = 1999
+[0660.59] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0660.60] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 1499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 2499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 3499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 4999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 9999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 2999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 5999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 1499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 3999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 5999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 1999
+[0660.60] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0660.60] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 1499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 2499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 3499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 4999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 9999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 2999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 5999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 1499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 3999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 5999
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 499
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 799
+[0660.60] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0660.60] Log:                               ProductSKU = 
+[0660.60] Log:                               ConsoleDescription = 
+[0660.60] Log:                               ProductImage = 
+[0660.60] Log:                               Price = 1999
+[0660.60] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0660.60] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0660.61] Log: [UIDataShop] Started Storing DLC/Marketplace Item Data...
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 1499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 799
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 2499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 3499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 4999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 9999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Champion Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 2999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 5999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Frost Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 799
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Star Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Goddess Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Nightmare Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 799
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Obsidian Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 1499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Gift Giving Bundle
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = 
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 799
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Season Pass 2019 Bundle
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 3999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Digital Deluxe Edition 2019
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 5999
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Covert Ops Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 499
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Legionnaire Pack
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 799
+[0660.61] Log: [UIDataShop] Real Money Item: ProductName = Future's End Bundle
+[0660.61] Log:                               ProductSKU = 
+[0660.61] Log:                               ConsoleDescription = 
+[0660.61] Log:                               ProductImage = 
+[0660.61] Log:                               Price = 1999
+[0660.61] Log: [UIDataShop] Finished Storing DLC/Marketplace Item Data!
+[0660.61] Log: [Chat Privileges] Received chat message 'DemonSoulArp has left the channel.'
+[0660.61] Log: [Chat Privileges] Posting message
+[0660.61] Log: RequestingChannelMembers ch[3]
+[0660.61] Log: [Chat Privileges] Received chat message 'DemonSoulArp has joined the channel.'
+[0660.61] Log: [Chat Privileges] Posting message
+[0660.61] Log: RequestingChannelMembers ch[3]
+[0660.97] Log: >eChannel = 3
+[0660.97] Log: >>channel player DemonSoulArp
+[0660.97] Log: >eChannel = 3
+[0660.97] Log: >>channel player DemonSoulArp
+[0665.00] Log: BeginEndMission 0
+[0665.00] Log: Finishstats did not send Elo ranking mt=0
+[0665.00] Log: BeginEndMission 1
+[0665.00] Log: BeginEndMission 2
+[0665.00] Log: BeginEndMission 3
+[0665.00] Log: BeginEndMission 4
+[0665.00] Log: BeginEndMission 5
+[0665.01] Log: BeginEndMission 6
+[0665.01] Log: ATgGame_Mission::BeginEndMission 1
+[0665.01] Log: ATgGame_Mission::BeginEndMission 2
+[0665.01] Log: ATgGame_Mission::BeginEndMission 3
+[0665.01] Log: ATgGame_Mission::BeginEndMission 4
+[0665.01] Log: Set audio group (MUS_Level_default) to new audio switch (End) during music event update
+[0665.25] Log: [POTG 261.89] Did not find play of the game pawn id, going to home
+[0671.59] VoiceChat: VivoxClientApi::MultiChannelSessionGroup::GetParticipantMutedForMe:843 (channel.IsValid())
+[0671.95] Log: FViewport::UpdateViewportRHI(FALSE,1280,720,FALSE)
+[0672.18] VoiceChat: VivoxClientApi::MultiChannelSessionGroup::GetParticipantMutedForMe:843 (channel.IsValid())
+[0672.26] Log: [POTG 268.90] Map outro finished
+[0672.50] Log: going home!
+[0672.86] Log: ReceiveChangeMap: mapGameId 1713
+[0672.86] Log: ReceiveChangeMap: mapGameId 1713
+[0672.87] DevNet: URL: Adding default option Team=255
+[0672.87] Log: [Chat Privileges] Received chat message 'DemonSoulArp has left the channel.'
+[0672.87] Log: [Chat Privileges] Posting message
+[0672.87] DevNet: URL: Adding default option Team=255
+[0672.87] DevNet: Browse: LobbyMapV4_P?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0672.89] Log: LoadMap: LobbyMapV4_P?game=?GameState=OGS_NoSession?GameMode=0?name=Player?Team=255
+[0672.92] Log: TgClientHUD Begin Unloading All Scenes
+[0672.92] Log: TgClientHUD Unload Scene: UIWorldOverlay
+[0672.94] Log: TgClientHUD Unload Scene: UIHud
+[0672.95] Log: TgClientHUD Unload Scene: UIHudVoiceChat
+[0672.95] Log: TgClientHUD Unload Scene: UIHudVGS
+[0672.95] Log: TgClientHUD Unload Scene: UIHudMenu
+[0672.95] Log: TgClientHUD Unload Scene: UIHudBurns
+[0672.96] Log: TgClientHUD Unload Scene: UIHudDecks
+[0672.96] Log: TgClientHUD Unload Scene: UIHudRecap
+[0672.96] Log: TgClientHUD Unload Scene: UIHudOverlays
+[0672.96] Log: TgClientHUD Unload Scene: UIHudScoreboard
+[0672.96] Log: TgClientHUD Unload Scene: UIHudChampionSelect
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\Skills\Skills.swf
+[0672.97] Log: TgClientHUD Unload Scene: UIRadialMenu
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\SettingsMenu\SettingsMenu.swf
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\Popup\Popup.swf
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\Popup\AchievementPopups.swf
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\SettingsMenu\KeybindPopup.swf
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\FacebookLive\FacebookLivePopup.swf
+[0672.97] Log: TgClientHUD Unload Scene: UIHudResult
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\WebBrowser\WebBrowser.swf
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\Footer\GamepadFooter.swf
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\Transition\UIFade.swf
+[0672.97] Log: TgClientHUD Unload Scene: UISubtitle
+[0672.97] Log: TgClientHUD Found Shared Scene SWF: ..\FacebookLive\FacebookLiveIndicator.swf
+[0672.97] Log: TgClientHUD Flush Flash
+[0672.97] Log: UTgGfxScene Unitialize: UIWorldOverlay
+[0672.97] Log: UTgGfxScene Unitialize: UIHudWaypoint
+[0672.97] Log: UTgGfxScene Unitialize: UIHudTarget
+[0672.97] Log: UTgGfxScene Unitialize: UIHudCenter
+[0672.97] Log: UTgGfxScene Unitialize: UIHudKillFeed
+[0672.97] Log: UTgGfxScene Unitialize: UIHudDebuff
+[0672.97] Log: UTgGfxScene Unitialize: UIHudCredits
+[0672.97] Log: UTgGfxScene Unitialize: UIHudCards
+[0672.97] Log: UTgGfxScene Unitialize: UIHudPlayer
+[0672.97] Log: UTgGfxScene Unitialize: UIHudPlayer_NPC
+[0672.97] Log: UTgGfxScene Unitialize: UIHudSkills
+[0672.97] Log: UTgGfxScene Unitialize: UIHudSkills3P
+[0672.97] Log: UTgGfxScene Unitialize: UIHudChat
+[0672.97] Log: UTgGfxScene Unitialize: UIHudScore
+[0672.98] Log: UTgGfxScene Unitialize: UIHudTeam
+[0672.98] Log: UTgGfxScene Unitialize: UIHudNotify
+[0672.98] Log: UTgGfxScene Unitialize: UIHud
+[0672.98] Log: UTgGfxScene Unitialize: UIHudVoiceChat
+[0672.98] Log: UTgGfxScene Unitialize: UIHudVGS
+[0672.98] Log: UTgGfxScene Unitialize: UIHudMenu
+[0672.98] Log: UTgGfxScene Unitialize: UIHudBurns
+[0672.98] Log: UTgGfxScene Unitialize: UIHudDecks
+[0672.98] Log: UTgGfxScene Unitialize: UIHudRecap
+[0672.98] Log: UTgGfxScene Unitialize: UIHudSniper
+[0672.98] Log: UTgGfxScene Unitialize: UIHudStrix
+[0672.98] Log: UTgGfxScene Unitialize: UIHudImani
+[0672.98] Log: UTgGfxScene Unitialize: UIHudChomp
+[0672.98] Log: UTgGfxScene Unitialize: UIHudKoga
+[0672.98] Log: UTgGfxScene Unitialize: UIHudBinoculars
+[0672.98] Log: UTgGfxScene Unitialize: UIHudAtlas
+[0672.98] Log: UTgGfxScene Unitialize: UIHudOverlays
+[0672.99] Log: UTgGfxScene Unitialize: UIHudScoreboard
+[0672.99] Log: UTgGfxScene Unitialize: UIHudChampionSelect
+[0672.99] Log: UTgGfxScene Unitialize: UIRadialMenu
+[0672.99] Log: UTgGfxScene Unitialize: UIHudResult
+[0672.99] Log: UTgGfxScene Unitialize: UISubtitle
+[0673.00] Log: TgClientHUD Finished Unloading All Scenes
+[0673.00] Log: [!!!] Clearing the precache manifest.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_16) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_4) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_7) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_15) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_3) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_18) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_14) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_2) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_12) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_9) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_6) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_5) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_8) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_11) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_0) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_17) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_1) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_13) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Overlay_Player_10) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Player_1) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0673.03] Log: Encountered a UIComponent (UIComponent_HealthBar_Player_0) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0674.08] Log: Map Game ID = 0
+[0674.08] Log: Map Instance ID = 246547644
+[0674.11] Log: Performance: Critical section Lock/Unlock 27 nsec
+[0674.11] Log: Performance:  appCycles 9 nsec
+[0674.16] Log: Performance:  memCopy per KB 238 nsec
+[0674.17] Log: Performance:  memZero per KB 60 nsec
+[0674.18] Log: Performance:  appInterlockedIncrement 8 nsec
+[0674.18] Log: Performance:  GetTickCount 3 nsec
+[0674.18] TgSLO: Async Load: LobbyRefs_SF
+[0674.18] TgSLO: Async Load: LobbyUI_SF
+[0674.18] Log: Flushing async loaders. MinPriority=ALP_Immediate
+[0674.25] TgSLO: Finish Load: LobbyRefs_SF
+[0674.70] TgSLO: Finish Load: LobbyUI_SF
+[0674.70] Log: Flushed async loaders.
+[0674.70] Log: [!!!] Clearing the transition manifest.
+[0674.70] Log: Game class is 'TgGameLaunch'
+[0674.70] Log: Match ID: 0
+[0674.90] Log: Primary PhysX scene will be in software.
+[0674.90] Log: Creating Primary PhysX Scene.
+[0674.90] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0674.90] Log: Bringing World LobbyMapV4_P.TheWorld up for play (0) at 2019.04.29-20.14.47
+[0674.90] Log: Skipping initialization of FSMPartPool!
+[0674.91] Log: Bringing up level for play took: 0.205479
+[0674.91] Error: (Function Engine.GameInfo:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0675.09] Log: TgClientHUD Begin Loading All Scenes
+[0675.09] Log: TgClientHUD Load Scene: UIBackground
+[0675.09] Log: TgClientHUD Load Scene: UIStoreDetail
+[0675.09] Log: TgClientHUD Load Scene: UIHome
+[0675.09] Log: TgClientHUD Load Scene: UIStore
+[0675.09] Log: TgClientHUD Load Scene: UIPlay
+[0675.09] Log: TgClientHUD Load Scene: UIMatchLobby
+[0675.09] Log: TgClientHUD Load Scene: UIProfile
+[0675.09] Log: TgClientHUD Load Scene: UILeaderboard
+[0675.09] Log: TgClientHUD Load Scene: UICustomGame
+[0675.09] Log: TgClientHUD Load Scene: UISocial
+[0675.09] Log: TgClientHUD Load Scene: UIEndOfMatchLobby
+[0675.09] Log: TgClientHUD Load Scene: UIQuests
+[0675.09] Log: TgClientHUD Load Scene: UICompetitive
+[0675.09] Log: TgClientHUD Load Scene: UIChampion
+[0675.09] Log: TgClientHUD Load Scene: UIChampionSelect
+[0675.09] Log: TgClientHUD Load Scene: UIChampionMastery
+[0675.09] Log: TgClientHUD Load Scene: UILogin
+[0675.09] Log: TgClientHUD Load Scene: UIEditLoadouts
+[0675.09] Log: TgClientHUD Load Scene: UIBattlePass
+[0675.09] Log: TgClientHUD Load Scene: UIBattlePassLevelUp
+[0675.09] Log: TgClientHUD Load Scene: UIBattlePassPurchase
+[0675.09] Log: TgClientHUD Load Scene: UIRadialMenuEquip
+[0675.09] Log: TgClientHUD Load Scene: UIStreetStyleEvent
+[0675.09] Log: TgClientHUD Load Scene: UIGifts
+[0675.09] Log: TgClientHUD Load Scene: UIFooter
+[0675.09] Log: TgClientHUD Load Scene: UILobbyChat
+[0675.09] Log: TgClientHUD Load Scene: UIProfileMini
+[0675.09] Log: TgClientHUD Load Scene: UIHeader
+[0675.09] Log: TgClientHUD Load Scene: UINotificationCenter
+[0675.09] Log: TgClientHUD Load Scene: UIAccountLinkPopup
+[0675.09] Log: TgClientHUD Load Scene: UIDailyReward
+[0675.09] Log: TgClientHUD Load Scene: UIDiscardQuestPopup
+[0675.09] Log: TgClientHUD Load Scene: UIPopupRealMoneyPurchase
+[0675.09] Log: TgClientHUD Load Scene: UIInputPopup
+[0675.09] Log: TgClientHUD Load Scene: UICompetitivePopupWelcome
+[0675.09] Log: TgClientHUD Load Scene: UICompetitiveRankedDecay
+[0675.09] Log: TgClientHUD Load Scene: UICompetitiveRankChange
+[0675.09] Log: TgClientHUD Load Scene: UIMatchInvite
+[0675.09] Log: TgClientHUD Load Scene: UILobbyBoosterSelect
+[0675.09] Log: TgClientHUD Load Scene: UILobbyBoosterActivation
+[0675.09] Log: TgClientHUD Load Scene: UIAcquisition
+[0675.09] Log: TgClientHUD Load Scene: UICouponAcquisition
+[0675.09] Log: TgClientHUD Load Scene: UIPurchase
+[0675.09] Log: TgClientHUD Load Scene: UIPopupPartyManager
+[0675.09] Log: TgClientHUD Load Scene: UITeamInvite
+[0675.09] Log: TgClientHUD Load Scene: UIPurchaseGems
+[0675.09] Log: TgClientHUD Load Scene: UIEOMLAcquisition
+[0675.09] Log: TgClientHUD Load Scene: UIPatchNotesPopup
+[0675.09] Log: TgClientHUD Load Scene: UIReferredRewardsPopup
+[0675.09] Log: TgClientHUD Load Scene: UIGameMenu
+[0675.09] Log: TgClientHUD Load Scene: UIPopupChampionLevelUp
+[0675.09] Log: TgClientHUD Load Scene: UIPlaySettings
+[0675.09] Log: TgClientHUD Load Scene: UIStoreFilterPopup
+[0675.09] Log: TgClientHUD Load Scene: UIStoreRentSprayPopup
+[0675.09] Log: TgClientHUD Load Scene: UIPopupDeal
+[0675.09] Log: TgClientHUD Load Scene: UIBattlePassXPPurchase
+[0675.09] Log: TgClientHUD Load Scene: UIFullScreen
+[0675.09] Log: TgClientHUD Load Scene: UISendGift
+[0675.09] Log: TgClientHUD Load Scene: UIMatchLobbyTradePopup
+[0675.09] Log: TgClientHUD Load Scene: UINotificationPopup
+[0675.09] Log: TgClientHUD Load Scene: UISafeFrame
+[0675.09] Log: TgClientHUD Finished Loading All Scenes
+[0675.09] Log: [LobbyStateLog] Changing lobby state from 0 to 2.
+[0675.09] ScriptWarning: Accessed None 'VoiceInterface'
+	UIGameMoviePlayer Transient.UIGameMoviePlayer_0
+	Function TgClient.UIGameMoviePlayer:UnregisterLocalTalker:000C
+[0675.09] Exit: PComNetDriver_1(PEER) shut down
+[0675.09] Log: [FSocketWin::Bind] Binding to 0.0.0.0:7778
+[0675.09] DevNet: PComNetDriver_2(PEER) TcpNetDriver listening on port 7778
+[0675.10] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0675.10] Log: ########### Finished loading level: 2.207093 seconds
+[0675.10] Log: Flushing async loaders. MinPriority=ALP_None
+[0675.69] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 1, has a BulkDataSize [1024] that doesn't match calculated size [4096]. Texture size 64x64, format 2
+[0675.69] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 2, has a BulkDataSize [256] that doesn't match calculated size [1024]. Texture size 64x64, format 2
+[0675.69] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 3, has a BulkDataSize [64] that doesn't match calculated size [256]. Texture size 64x64, format 2
+[0675.69] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 4, has a BulkDataSize [16] that doesn't match calculated size [64]. Texture size 64x64, format 2
+[0675.69] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 5, has a BulkDataSize [4] that doesn't match calculated size [16]. Texture size 64x64, format 2
+[0675.69] Log: Texture 'EngineVolumetrics.lightbeam.Materials.T_EV_LightBeam_Falloff_02', mip 6, has a BulkDataSize [1] that doesn't match calculated size [4]. Texture size 64x64, format 2
+[0675.69] Log: Flushed async loaders.
+[0675.69] Log: Starting RedrawViewports for texture streaming..
+[0675.70] Log: RedrawViewports took: 0.009446 seconds
+[0675.70] Log: Starting Level load StreamAllResources..
+[0675.72] Log: Level load StreamAllResources took: 0.015952 seconds
+[0675.72] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0675.72] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0675.72] Log: [Chat Privileges] Received chat message 'DemonSoulArp has left the channel.'
+[0675.72] Log: [Chat Privileges] Posting message
+[0675.72] Log: RequestingChannelMembers ch[3]
+[0675.72] Log: [Chat Privileges] Received chat message 'DemonSoulArp has joined the channel.'
+[0675.72] Log: [Chat Privileges] Posting message
+[0675.72] Log: RequestingChannelMembers ch[3]
+[0675.75] Log: UTgGfxScene Unitialize: UIHudTip
+[0675.78] Log: UTgGfxScene Unitialize: UIHudTip
+[0675.78] Log: UTgGfxScene Initialize: UIBackground
+[0675.82] Log: UTgGfxScene Initialize: UIStoreDetail
+[0675.84] Log: UTgGfxScene Initialize: UIHome
+[0675.85] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0676.03] Log: UTgGfxScene Initialize: UIStore
+[0676.13] Log: UTgGfxScene Initialize: UIPlay
+[0676.22] Log: UTgGfxScene Initialize: UIMatchLobby
+[0676.41] Log: UTgGfxScene Initialize: UIProfile
+[0676.54] Log: UTgGfxScene Initialize: UILeaderboard
+[0676.59] Log: UTgGfxScene Initialize: UICustomGame
+[0676.64] Log: UTgGfxScene Initialize: UISocial
+[0676.76] Log: UTgGfxScene Initialize: UIEndOfMatchLobby
+[0676.85] Log: UTgGfxScene Initialize: UIQuests
+[0676.90] Log: UTgGfxScene Initialize: UICompetitive
+[0676.98] Log: UTgGfxScene Initialize: UIChampion
+[0677.03] Log: UTgGfxScene Initialize: UIChampionSelect
+[0677.06] Log: UTgGfxScene Initialize: UIChampionMastery
+[0677.08] Log: UTgGfxScene Initialize: UILogin
+[0677.08] Warning: Warning, Encounted an invalid HTML tag when validating string to send to flash: <http://www.hirez.com>
+[0677.19] Log: UTgGfxScene Initialize: UIEditLoadouts
+[0677.35] Log: UTgGfxScene Initialize: UIBattlePass
+[0677.51] Log: UTgGfxScene Initialize: UIBattlePassLevelUp
+[0677.52] Log: UTgGfxScene Initialize: UIBattlePassPurchase
+[0677.54] Log: UTgGfxScene Initialize: UIRadialMenuEquip
+[0677.58] Log: UTgGfxScene Initialize: UIStreetStyleEvent
+[0677.63] Log: UTgGfxScene Initialize: UIGifts
+[0677.65] Log: UTgGfxScene Initialize: UIFooter
+[0677.65] Log: UTgGfxScene Initialize: UILobbyChat
+[0677.65] Log: UTgGfxScene Initialize: UIChatTab
+[0677.67] Log: UTgGfxScene Initialize: UIProfileMini
+[0677.67] Log: UTgGfxScene Initialize: UIHeader
+[0677.72] Log: UTgGfxScene Initialize: UINotificationCenter
+[0677.74] Log: UTgGfxScene Initialize: UIAccountLinkPopup
+[0677.76] Log: UTgGfxScene Initialize: UIDailyReward
+[0677.78] Log: UTgGfxScene Initialize: UIDiscardQuestPopup
+[0677.78] Log: UTgGfxScene Initialize: UIPopupRealMoneyPurchase
+[0677.78] Log: UTgGfxScene Initialize: UIInputPopup
+[0677.80] Log: UTgGfxScene Initialize: UICompetitivePopupWelcome
+[0677.81] Log: UTgGfxScene Initialize: UICompetitiveRankChange
+[0677.82] Log: UTgGfxScene Initialize: UIMatchInvite
+[0677.83] Log: UTgGfxScene Initialize: UILobbyBoosterSelect
+[0677.83] Log: UTgGfxScene Initialize: UILobbyBoosterActivation
+[0677.86] Log: UTgGfxScene Initialize: UIAcquisition
+[0677.89] Log: UTgGfxScene Initialize: UICouponAcquisition
+[0677.94] Log: UTgGfxScene Initialize: UIPurchase
+[0677.95] Log: UTgGfxScene Initialize: UIPopupPartyManager
+[0677.96] Log: UTgGfxScene Initialize: TgGfxTeamInvite
+[0677.97] Log: UTgGfxScene Initialize: UIPurchaseGems
+[0677.99] Log: UTgGfxScene Initialize: UIEOMLAcquisition
+[0678.00] Log: UTgGfxScene Initialize: UIPatchNotesPopup
+[0678.01] Log: UTgGfxScene Initialize: UIReferredRewardsPopup
+[0678.01] Log: UTgGfxScene Initialize: UIGameMenu
+[0678.02] Log: UTgGfxScene Initialize: UIPopupChampionLevelUp
+[0678.03] Log: UTgGfxScene Initialize: UIPopupPlaySettings
+[0678.04] Log: UTgGfxScene Initialize: UIStoreFilterPopup
+[0678.06] Log: UTgGfxScene Initialize: UIStoreRentSprayPopup
+[0678.07] Log: UTgGfxScene Initialize: UIPopupDeal
+[0678.09] Log: UTgGfxScene Initialize: UIBattlePassXPPurchase
+[0678.09] Log: Skipping SetTexture for path: ..\LoadingFrames\LoadingFrame_BattleByte.swf
+[0678.11] TgSLO: Async Load: SPRAY_TYPE_UI_SF
+[0678.12] Log: UTgGfxScene Initialize: UIFullScreen
+[0678.14] Log: UTgGfxScene Initialize: UISendGift
+[0678.15] Log: UTgGfxScene Initialize: UIMatchLobbyTradePopup
+[0678.16] Log: UTgGfxScene Initialize: UINotificationPopup
+[0678.17] Log: UTgGfxScene Initialize: UISafeFrame
+[0678.23] Log: >eChannel = 3
+[0678.23] Log: >>channel player DemonSoulArp
+[0678.23] Log: >eChannel = 3
+[0678.23] Log: >>channel player DemonSoulArp
+[0678.23] Log: [Chat Privileges] Received chat message 'DemonSoulArp has left the channel.'
+[0678.23] Log: [Chat Privileges] Posting message
+[0678.23] Log: RequestingChannelMembers ch[3]
+[0678.23] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0678.23] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0678.23] Log: FWindowsViewport::HandlePossibleSizeChange() - detected window resize!
+[0678.23] Log: FViewport::UpdateViewportRHI(FALSE,1355,740,FALSE)
+[0678.49] Warning: TgLobbyCamera_15 has unsupported physics mode 8
+[0678.50] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0678.59] TgSLO: Async Load: ATLAS_ASSETS_SF (SkinReferencer24369)
+[0678.60] TgSLO: Async Load: ATLAS_LOBBY_ASSETS_SF (SkinReferencer24369)
+[0678.60] TgSLO: Async Load: ATLAS_UI_ASSETS_SF (SkinReferencer24369)
+[0678.60] TgSLO: Async Load: DEVICE24033_ASSETS_SF (SkinReferencer24372)
+[0678.60] TgSLO: Async Load: DEVICE24033_LOBBY_ASSETS_SF (SkinReferencer24372)
+[0678.60] TgSLO: Async Load: DEVICE24033_UI_ASSETS_SF (SkinReferencer24372)
+[0679.06] TgSLO: Finish Load: SPRAY_TYPE_UI_SF
+[0680.27] TgSLO: Finish Load: ATLAS_ASSETS_SF
+[0680.50] TgSLO: Finish Load: ATLAS_LOBBY_ASSETS_SF
+[0680.54] TgSLO: Finish Load: ATLAS_UI_ASSETS_SF
+[0681.03] TgSLO: Finish Load: DEVICE24033_ASSETS_SF
+[0681.24] TgSLO: Finish Load: DEVICE24033_LOBBY_ASSETS_SF
+[0681.27] TgSLO: Finish Load: DEVICE24033_UI_ASSETS_SF
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.02] Log: Discarding Message ( 642, 6, 0 )
+[0690.02] Log: Discarding Message ( 642, 7, 0 )
+[0690.13] TgSLO: Async Load: YING_UI_ASSETS_SF
+[0690.13] Log: TgIconManager: Attempted to set icon for item 'Flair Chest' (16557), but texture string is unset for this item
+[0690.13] TgSLO: Async Load: YING_ASSETS_SF
+[0690.13] TgSLO: Async Load: YING_LOBBY_ASSETS_SF
+[0690.13] TgSLO: Async Load: YING_UI_ASSETS_SF
+[0690.16] TgSLO: Async Load: YING_ASSETS_SF (SkinReferencer24286)
+[0690.16] TgSLO: Async Load: YING_LOBBY_ASSETS_SF (SkinReferencer24286)
+[0690.16] TgSLO: Async Load: YING_UI_ASSETS_SF (SkinReferencer24286)
+[0690.16] TgSLO: Async Load: DEVICE13279_ASSETS_SF (SkinReferencer24287)
+[0690.16] TgSLO: Async Load: DEVICE13279_LOBBY_ASSETS_SF (SkinReferencer24287)
+[0690.16] TgSLO: Async Load: DEVICE13279_UI_ASSETS_SF (SkinReferencer24287)
+[0690.20] TgSLO: Finish Load: YING_UI_ASSETS_SF
+[0690.20] TgSLO: Finish Load: YING_UI_ASSETS_SF
+[0690.20] TgSLO: Finish Load: YING_UI_ASSETS_SF
+[0691.84] TgSLO: Cancel Load: YING_ASSETS_SF
+[0691.84] TgSLO: Cancel Load: YING_LOBBY_ASSETS_SF
+[0691.84] TgSLO: Cancel Load: DEVICE13279_ASSETS_SF
+[0691.84] TgSLO: Cancel Load: DEVICE13279_LOBBY_ASSETS_SF
+[0691.84] TgSLO: Cancel Load: DEVICE13279_UI_ASSETS_SF
+[0691.84] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0691.86] TgSLO: Async Load: SKYE_ASSETS_SF (SkinReferencer24298)
+[0691.86] TgSLO: Async Load: SKYE_LOBBY_ASSETS_SF (SkinReferencer24298)
+[0691.86] TgSLO: Async Load: SKYE_UI_ASSETS_SF (SkinReferencer24298)
+[0691.86] TgSLO: Async Load: DEVICE10762_ASSETS_SF (SkinReferencer24299)
+[0691.86] TgSLO: Async Load: DEVICE10762_LOBBY_ASSETS_SF (SkinReferencer24299)
+[0691.86] TgSLO: Async Load: DEVICE10762_UI_ASSETS_SF (SkinReferencer24299)
+[0692.11] TgSLO: Finish Load: YING_ASSETS_SF
+[0692.48] TgSLO: Finish Load: YING_LOBBY_ASSETS_SF
+[0692.75] TgSLO: Cancel Load: SKYE_ASSETS_SF
+[0692.75] TgSLO: Cancel Load: SKYE_LOBBY_ASSETS_SF
+[0692.75] TgSLO: Cancel Load: SKYE_UI_ASSETS_SF
+[0692.75] TgSLO: Cancel Load: DEVICE10762_ASSETS_SF
+[0692.75] TgSLO: Cancel Load: DEVICE10762_LOBBY_ASSETS_SF
+[0692.76] TgSLO: Cancel Load: DEVICE10762_UI_ASSETS_SF
+[0707.00] Log: PComDiscordRichPresence::UpdatePresence calling Discord_UpdatePresence Main Menu 0 0 
+[0707.01] Log: UILandingPanelManager_0 ParseSection ended array construction with a non zero probability 1
+[0707.02] Log: [Chat Privileges] Received chat message 'DemonSoulArp entered the party into a match queue.'
+[0707.02] Log: [Chat Privileges] Posting message
+[0707.02] Log: Chat[4]: DemonSoulArp entered the party into a match queue.
+[0707.02] Log: [Chat Privileges] Received chat message 'You have joined a match queue.'
+[0707.02] Log: [Chat Privileges] Posting message
+[0707.02] Log: Chat[9]: You have joined a match queue.
+[0707.02] TgSLO: Async Load: ASH_ASSETS_SF (SkinReferencer24294)
+[0707.02] TgSLO: Async Load: ASH_LOBBY_ASSETS_SF (SkinReferencer24294)
+[0707.02] TgSLO: Async Load: ASH_UI_ASSETS_SF (SkinReferencer24294)
+[0707.02] TgSLO: Async Load: DEVICE16708_ASSETS_SF (SkinReferencer24296)
+[0707.02] TgSLO: Async Load: DEVICE16708_LOBBY_ASSETS_SF (SkinReferencer24296)
+[0707.02] TgSLO: Async Load: DEVICE16708_UI_ASSETS_SF (SkinReferencer24296)
+[0707.96] TgSLO: Finish Load: ASH_ASSETS_SF
+[0708.14] TgSLO: Finish Load: ASH_LOBBY_ASSETS_SF
+[0708.20] TgSLO: Finish Load: ASH_UI_ASSETS_SF
+[0708.63] TgSLO: Finish Load: DEVICE16708_ASSETS_SF
+[0708.78] TgSLO: Finish Load: DEVICE16708_LOBBY_ASSETS_SF
+[0708.82] TgSLO: Finish Load: DEVICE16708_UI_ASSETS_SF
+[0711.99] Log: FViewport::UpdateViewportRHI(TRUE,0,0,FALSE)
+[0712.55] Log: [!!!] Clearing the precache manifest.
+[0712.55] Log: All Windows Closed
+[0712.55] Log: appRequestExit(0)(0)
+[0712.55] Log: TgAIBehaviorTreeManager :: De-allocating 186 behavior trees
+[0713.33] Exit: Preparing to exit.
+[0714.09] Log: Encountered a UIComponent (Default__UIComponent_HealthBar) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0714.09] Log: Encountered a UIComponent (Default__UIComponent_HealthBar_Overlay) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0714.09] Log: Encountered a UIComponent (Default__UIComponent_HealthBar_Overlay_Deployable) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0714.09] Log: Encountered a UIComponent (Default__UIComponent_HealthBar_Overlay_Player) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0714.09] Log: Encountered a UIComponent (Default__UIComponent_HealthBar_Player) with no valid owner found (or it has itself set as it's parent)!!!! Returning NULL to prevent recursive calls.
+[0714.47] Exit: Game engine shut down
+[0714.78] Exit: Windows client shut down
+[0714.78] Exit: XAudio2 Device shut down.
+[0714.80] Exit: AK Audio shut down.
+[0714.82] Exit: PComNetDriver_2(PEER) shut down
+[0715.41] Exit: Object subsystem successfully closed.
+[0715.41] VoiceChat: UpdateVivox: Leaving all channels
+[0715.41] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0715.71] VoiceChat: UpdateVivox: Leaving all channels
+[0715.71] Log: >>>>>>>>>>>>>>>>>> ResubmitMCTSEvent PLAYER_LOGOFF
+[0716.26] Exit: Exiting.

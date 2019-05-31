@@ -1,0 +1,12 @@
+#pagal{
+	height:500px;
+	width:500px;
+	background-image:url(../Image/8.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+}
+	
+body{
+	background-image:url(../Image/2.html);
+
+}
